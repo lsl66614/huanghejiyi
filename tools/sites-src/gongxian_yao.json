@@ -1,0 +1,73 @@
+{
+  "id": "gongxian_yao",
+  "name": "巩义窑址",
+  "city": "zhengzhou",
+  "era": "song",
+  "site_type": "kiln",
+  "summary": "隋唐至宋的瓷窑集群（巩县窑），白瓷、绞胎与唐三彩的重要产地，大黄冶一带为唐东都、长安明器三彩的供件窑场，宋金续烧琉璃与白瓷。",
+  "tags": [
+    "唐三彩产地",
+    "白瓷",
+    "宋巩县琉璃",
+    "刘禹锡咏巩县"
+  ],
+  "sections": {
+    "intro": "巩义窑址分布于巩义市洛河南北的隋唐巩县境，以大黄冶、小白沙岭、铁窑、渣窑、窖窑等处为代表，是文献所称唐代名窑'巩窑'与唐三彩窑场所在。",
+    "arch": "20世纪以来考古调查与试掘确认窑炉、作坊、澄泥池与三彩釉陶残片堆积，出土白瓷、青瓷、黑釉与绞胎、三彩器，胎釉标本显示唐代白瓷已用高岭土配方；宋金延续烧造琉璃与白地黑花器。",
+    "events": "唐开元二十九年诏令薄葬，明器数量与三彩作役受限，东都近郊三彩窑随之收缩；北宋巩县设皇陵事务驻官，窑场转供山陵琉璃与民用白瓷；今窑址群已列河南省文物保护单位。",
+    "poems": [
+      {
+        "text": "巩树烟月上，清光含碧流。",
+        "author": "刘禹锡（唐）",
+        "source": "刘禹锡《酬李相公喜归乡国自巩县夜泛洛水见寄》（《刘宾客文集》）"
+      }
+    ],
+    "tourism": "大黄冶村存三彩窑遗址标识与民间三彩作坊体验点（巩义市河洛镇），可购唐三彩复刻工艺器；博物馆藏瓷在巩义市博物馆陈列。"
+  },
+  "images": [
+    "images/gongxian_yao/real_yaokui_yizhi.webp",
+    "images/gongxian_yao/yaoke_fajian_xielie.webp",
+    "images/gongxian_yao/sancai_shou.webp",
+    "images/gongxian_yao/baici_guan.webp"
+  ],
+  "relics": [
+    {
+      "id": "gy_sancai_pottery",
+      "name": "唐三彩釉陶残片与马俑",
+      "era": "hantang",
+      "summary": "窑场出土三彩器残片与完整马俑，绿、黄、白釉流淌交融，是'唐三彩'得名之地的产地证据。",
+      "material": "陶/釉",
+      "images": [
+        "images/gongxian_yao/sancai_shou.webp"
+      ],
+      "source": "巩义市博物馆与河南省文物考古研究院公开资料"
+    },
+    {
+      "id": "gy_jiaotai_bei",
+      "name": "绞胎杯残片",
+      "era": "hantang",
+      "summary": "以白、褐两色泥料揉叠成木纹状胎体的茶杯残片，工艺与文献所记唐代绞瓷相合，是巩县窑细工产品的代表。",
+      "material": "瓷",
+      "images": [
+        "images/gongxian_yao/baici_guan.webp"
+      ],
+      "source": "巩义窑址调查出土器物资料（巩义市博物馆）"
+    },
+    {
+      "id": "gy_baici_huwan",
+      "name": "白瓷碗、瓶",
+      "era": "song",
+      "summary": "宋金白瓷类，胎质坚白、釉面匀净，反映巩县窑在唐三彩衰后转向民用瓷的延续能力。",
+      "material": "瓷",
+      "images": [
+        "images/gongxian_yao/baici_guan.webp"
+      ],
+      "source": "巩义市博物馆陈列资料"
+    }
+  ],
+  "source": [
+    "河南省文物考古研究所：巩县窑址调查与试掘资料",
+    "陆羽《茶经》（《四部备要》本）",
+    "《中国陶瓷史》（文物出版社）隋唐名窑章"
+  ]
+}

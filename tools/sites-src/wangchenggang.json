@@ -1,0 +1,64 @@
+{
+  "id": "wangchenggang",
+  "name": "王城岗遗址",
+  "city": "zhengzhou",
+  "era": "longshan",
+  "site_type": "capital",
+  "summary": "登封告成镇的河南龙山文化晚期城址，曾发现东西并列小城与大规模夯土遗存，与文献'阳城'地望相联系，是夏文明探源的关键遗址。",
+  "tags": [
+    "龙山文化城址",
+    "阳城",
+    "夏代探索",
+    "夯土城墙"
+  ],
+  "sections": {
+    "intro": "王城岗遗址位于河南省郑州市登封市告成镇，地处颍河与五渡河交汇的台地上，主体遗存属河南龙山文化晚期（王湾三期类型），碳十四测年约公元前2200—前2020年，距今约4000—4200年，是探索夏文化最早启动的城址之一。",
+    "arch": "20世纪70年代末发掘确认遗址内存在龙山文化晚期东西并列的两座小城，其后又在大城范围内发现面积逾30万平方米的晚期城址与广泛分布的夯土基址群；出土陶器以砂泥质灰黑陶为主，兼见白陶、玉器与刻画符号陶器，灰坑中还发现锡铅青铜容器残片。战国阳城出土'阳城仓器'陶文与该遗址形成时空关联。",
+    "events": "王城岗城址的发现曾有力支持'禹都阳城'位于登封一带的学术观点；1996年夏商周断代工程在此采样测年，2002年起中华文明探源工程联合北京大学持续开展了聚落考古研究。",
+    "poems": [],
+    "tourism": "遗址位于登封市告成镇，邻近观星台等全国重点文物保护单位，为开放式遗址，参观安排以当地文保部门公告为准。"
+  },
+  "images": [
+    "images/wangchenggang/real_wangwen_taoding.webp",
+    "images/wangchenggang/real_wangchenggang_yizhi.webp",
+    "images/wangchenggang/chengqiang_hangtu.webp",
+    "images/wangchenggang/longshan_heitao.webp"
+  ],
+  "relics": [
+    {
+      "id": "wcg_longshan_black_pottery",
+      "name": "龙山文化灰黑陶",
+      "era": "longshan",
+      "summary": "遗址出土陶器以砂泥质灰黑陶为主，兼见磨光黑陶与白陶，器类包含鼎、罐等日常炊储器，是王湾三期文化晚期的典型陶器组合。",
+      "material": "陶",
+      "images": [
+        "images/wangchenggang/longshan_heitao.webp"
+      ]
+    },
+    {
+      "id": "wcg_rammed_wall_sample",
+      "name": "城墙夯土遗存",
+      "era": "longshan",
+      "summary": "龙山文化晚期城址的城墙与夯土基址遗存，夯筑技术已较成熟，印证当时社会具备组织大规模集体劳动的能力，为城址性质判断的核心证据。",
+      "material": "夯土",
+      "images": [
+        "images/wangchenggang/chengqiang_hangtu.webp"
+      ]
+    },
+    {
+      "id": "wcg_bronze_vessel_fragment",
+      "name": "青铜容器残片",
+      "era": "longshan",
+      "summary": "遗址灰坑中发现的锡铅青铜容器残片，材质成分经检测为锡铅铜合金，被推定为龙山文化晚期少见的小型铜容器部件，学术价值重大。",
+      "material": "铜",
+      "images": [
+        "images/wangchenggang/qingtong_qixingpian.webp"
+      ]
+    }
+  ],
+  "source": [
+    "《登封王城岗城址》词条（位置、测年、城址沿革与出土物）",
+    "'考古中国'与夏商周断代工程公开报道（登封王城岗与阳城地望研究）",
+    "1996年'夏商周断代工程——早期夏文化研究'专题组在遗址采样获取碳十四数据、2002年起'中华文明探源工程预研究'专题组（联合北京大学考古文博学院与河南省文物考古研究所）开展聚落形态研究并确认30万平方米龙山晚期大城：https://baike.quark.cn/baike?id=3f19d973a8d74ca899f437746bd0b25a ；https://m.baike.so.com/doc/665267.html"
+  ]
+}

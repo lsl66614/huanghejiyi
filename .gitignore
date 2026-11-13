@@ -1,0 +1,36 @@
+tools/.tsbuild/
+tools/sites-out/
+# IDE/工具状态。钩子状态文件散落在各源码目录下，`/.mimosa` 只拦得住顶层，
+# 用 `**/` 让任意层级的 .mimosa 目录都被排除（2026-10-25 提交曾带入 244 个）。
+**/.mimosa/
+.codeartsdoer/
+_scratch/
+.probe/
+tools/depth-src/
+app/entry/src/main/resources/rawfile/sites-out/
+tools/__pycache__/
+tools/.press_probe/
+tools/.sync_probe/
+tools/staging_unmounted/
+.hvigor-home/
+.qoder-credits/
+.arts/
+.merkle-snapshot.json
+hs_err_pid*.log
+/huanghe-memory-*.zip
+/submission/
+tools/_audit_scratch.txt
+
+# 装机验收截图（design/verify/，20MB+）。它们是过程证据、不是作品本体，
+# 且每次装机验收都会重新生成——入库只会让每次提交都带着几百 KB 的图片增量。
+# 需要留证的那几张，单独放到 docs/ 或外部归档。
+design/verify/
+
+# 未挂载图的暂存区（tools/staging_unmounted/ 的根级副本）。
+# 同性质：rawfile 之外的候选图，待定是否挂载，不入库。
+/staging_unmounted/
+
+# 一次性修库脚本（tools/_*.py）。历史上做过一次性改造，用完即弃；
+# 留在库里会让人以为它们是构建链路的一部分。
+tools/_*.py
+tools/_*.txt

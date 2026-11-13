@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  /* P1 大标题字身填充：土层纹样（每日故宫"数字嵌图"技法的直排版） */
+  @font-face {
+    font-family: 'NSC';
+    src: url('file:///E:/%20.stepclaw/huanghe-memory/app/entry/src/main/resources/rawfile/font/NotoSerifSC-Head800.ttf');
+  }
+  html, body { margin: 0; padding: 0; background: transparent; }
+  body { width: 900px; height: 480px; position: relative; }
+  .line {
+    position: absolute; left: 0;
+    font-family: 'NSC'; font-weight: 800;
+    font-size: 186px; line-height: 200px; letter-spacing: -6px;
+    white-space: nowrap;
+    background: url('_headline_strata.png') left center / cover no-repeat;
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+  }
+  #l1 { top: 0; }
+  #l2 { top: 220px; }
+</style>
+</head>
+<body>
+  <div class="line" id="l1">五千年</div>
+  <div class="line" id="l2">都在土里</div>
+</body>
+</html>

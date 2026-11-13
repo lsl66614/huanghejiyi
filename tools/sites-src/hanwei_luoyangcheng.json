@@ -1,0 +1,74 @@
+{
+  "id": "hanwei_luoyangcheng",
+  "name": "汉魏洛阳城遗址",
+  "city": "luoyang",
+  "era": "hantang",
+  "site_type": "capital",
+  "summary": "东汉、曹魏、西晋、北魏四朝都城遗址，都城史逾540年，铜驼街、阊阖门、永宁寺塔基构成中国都城中轴规制的源头样本。",
+  "tags": [
+    "四朝都城",
+    "丝绸之路世界遗产",
+    "中轴线城市",
+    "永宁寺塔"
+  ],
+  "sections": {
+    "intro": "汉魏洛阳城遗址位于洛阳市区东部，地跨洛龙区与偃师一带，先后作为东汉、曹魏、西晋、北魏四朝都城，建都史长达五百余年，是中国古代都城形制由封闭里坊向中轴宫城演进的关键节点，初建于西周、废弃于唐初。",
+    "arch": "自1962年起，中国科学院考古研究所（现中国社会科学院考古研究所）对城址进行长期全面调查发掘，探明宫城、中轴御道铜驼街、现存最早的宫城正门阊阖门、灵台明堂与太学等礼制建筑遗存；北魏皇家寺院永宁寺塔基出土泥塑佛像与建筑构件，塔高曾逾百米，是研究中古建筑与佛教艺术的里程碑式发现。",
+    "events": "1961年列入首批全国重点文物保护单位；2014年作为'丝绸之路：长安—天山廊道的路网'唯一都城类遗产点列入世界遗产名录；灵帝、孝文帝迁洛等重大历史事件均与此城直接相关。",
+    "poems": [
+      {
+        "text": "步登北邙阪，遥望洛阳山。",
+        "author": "曹植",
+        "source": "《曹子建集·送应氏》"
+      },
+      {
+        "text": "驱车上东门，遥望郭北墓。",
+        "author": "佚名",
+        "source": "《古诗十九首》"
+      }
+    ],
+    "tourism": "遗址已建设为汉魏洛阳故城遗址博物馆与公园体系，阊阖门、永宁寺塔基等展示点对公众开放，参观安排以园区公告为准。"
+  },
+  "images": [
+    "images/hanwei_luoyangcheng/real_yizhi_bowuguan.webp",
+    "images/hanwei_luoyangcheng/real_yongning_tabji.webp",
+    "images/hanwei_luoyangcheng/changhe_men.webp",
+    "images/hanwei_luoyangcheng/yongning_si_taji.webp"
+  ],
+  "relics": [
+    {
+      "id": "hw_changhe_gate",
+      "name": "阊阖门遗址",
+      "era": "hantang",
+      "summary": "宫城正门阊阖门门址，是中国目前所知最早的'双向三出阙'宫门形制，对后世都城宫门制度影响深远，已作原址保护展示。",
+      "material": "夯土、石",
+      "images": [
+        "images/hanwei_luoyangcheng/changhe_men.webp"
+      ]
+    },
+    {
+      "id": "hw_yongning_clay_buddha",
+      "name": "永宁寺塔基泥塑像",
+      "era": "hantang",
+      "summary": "北魏永宁寺木塔塔基出土的泥塑佛像构件，为寺院与塔基发掘的重要遗物，反映北魏佛教雕塑艺术的高超水平。",
+      "material": "泥",
+      "images": [
+        "images/hanwei_luoyangcheng/yongning_si_taji.webp"
+      ]
+    },
+    {
+      "id": "hw_tongtuo_street",
+      "name": "铜驼街中轴御道",
+      "era": "hantang",
+      "summary": "贯通全城的中轴街道，两侧官署林立，被认为是中国最早的中轴线城市轴线之一，'铜驼荆棘'之典即出于此。",
+      "material": "瓦砾、夯土",
+      "images": [
+        "images/hanwei_luoyangcheng/tongtuo_jie_zuobiao.webp"
+      ]
+    }
+  ],
+  "source": [
+    "《汉魏洛阳故城》词条（四朝建都、1962年起考古发掘、铜驼街、阊阖门、永宁寺塔、文保与世界遗产身份）",
+    "中国社会科学院考古研究所洛阳汉魏故城工作队公开资料"
+  ]
+}

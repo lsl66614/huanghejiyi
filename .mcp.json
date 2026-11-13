@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "deveco-mcp": {
+      "type": "stdio",
+      "command": "devecocli",
+      "args": [
+        "serve",
+        "mcp"
+      ],
+      "env": {
+        "PROJECT_PATH": "E:/ .stepclaw/huanghe-memory"
+      },
+      "enabled": true
+    },
+    "pencil": {
+      "type": "stdio",
+      "command": "D:\\tools\\pencil-mcp\\out\\mcp-server-windows-x64.exe",
+      "args": [
+        "--app",
+        "desktop"
+      ],
+      "env": {},
+      "enabled": true
+    }
+  }
+}

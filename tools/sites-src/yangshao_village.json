@@ -1,0 +1,53 @@
+{
+  "id": "yangshao_village",
+  "name": "仰韶村遗址",
+  "city": "sanmenxia",
+  "era": "yangshao",
+  "site_type": "kiln",
+  "summary": "中国现代考古学的诞生地，1921年首次发掘后以遗址命名仰韶文化，是黄河中游新石器时代彩陶文化的标尺性遗址。",
+  "tags": [
+    "仰韶文化命名地",
+    "彩陶",
+    "1921年首发",
+    "文明探源"
+  ],
+  "sections": {
+    "intro": "仰韶村遗址位于河南省三门峡市渑池县城北部韶山南麓的缓坡台地上，是一处以仰韶文化为主体、叠压后续文化遗存的大型聚落遗址。仰韶文化距今约7000—5000年，以红陶黑彩的彩绘陶器为主要特征，遗址的发掘标志着中国现代考古学的开端。",
+    "arch": "1921年安特生与中国学者袁复礼等在此试掘，收获磨制石器、骨器、蚌器和大量陶器；1951年夏鼐、安志敏等主持第二次发掘，确认红底黑彩与深红彩陶器及小口尖底红陶瓶等典型器类；1980—1981年河南省文物研究所进行第三次发掘，科学厘清了地层叠压关系；2020年起河南省文物考古研究院主持第四次发掘，系统开展多学科研究。",
+    "events": "1921年的发掘揭开了仰韶文化的面纱，'仰韶'由此成为中国第一个考古学文化命名；2021年遗址发现百年之际，纪念活动与新一轮考古成果集中发布，该遗址被列入'考古中国'夏文化研究与文明探源相关课题。",
+    "poems": [],
+    "tourism": "遗址位于渑池县境内，相邻建有仰韶文化博物馆，展陈遗址出土彩陶等文物，一般需预约参观，开放安排以场馆公告为准。"
+  },
+  "images": [
+    "images/yangshao_village/real_yangshaocun.webp",
+    "images/yangshao_village/real_yangshao_diceng.webp",
+    "images/yangshao_village/xiaokou_jiandiping.webp",
+    "images/yangshao_village/caitaopen.webp"
+  ],
+  "relics": [
+    {
+      "id": "yx_small_mouth_pointed_bottle",
+      "name": "小口尖底瓶",
+      "era": "yangshao",
+      "summary": "仰韶文化典型汲水或礼仪用陶器，小口、细颈、深腹、尖底，仰韶村遗址出土，学界对其功能有汲水器、酿酒器等多种观点，为仰韶文化博物馆镇馆陈列品之一。",
+      "material": "陶",
+      "images": [
+        "images/yangshao_village/xiaokou_jiandiping.webp"
+      ]
+    },
+    {
+      "id": "yx_painted_pottery_basin",
+      "name": "彩陶盆",
+      "era": "yangshao",
+      "summary": "仰韶村遗址出土的彩绘陶器以红陶施黑彩为主要特征，见红底黑彩与深红彩的罐、碗、盆类器，纹样繁复，是仰韶文化彩陶工艺的代表。",
+      "material": "陶",
+      "images": [
+        "images/yangshao_village/caitaopen.webp"
+      ]
+    }
+  ],
+  "source": [
+    "河南省文物局：《仰韶村遗址的四次考古发掘》（2022-06-20）",
+    "仰韶文化博物馆公开展陈资料（小口尖底瓶出土信息、年代与陈列）"
+  ]
+}

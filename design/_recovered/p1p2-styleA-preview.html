@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黄河记忆 · A 排版海报流 P1/P2 静态预览</title>
+<style>
+  :root {
+    --paper: #F5F1E8;
+    --ink: #26221C;
+    --ink2: #6B6357;
+    --line: #E0D9C8;
+    --red: #8E4028;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1B1815;
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    color: var(--ink);
+    padding: 40px 32px 64px;
+  }
+  .board-title {
+    color: #C9C0B0; font-size: 13px; letter-spacing: 3px; margin-bottom: 28px;
+  }
+  .board { display: flex; gap: 44px; align-items: flex-start; flex-wrap: wrap; }
+  .stack { display: flex; flex-direction: column; gap: 10px; }
+  .frame-label { color: #8B8375; font-size: 12px; letter-spacing: 2px; }
+  .phone {
+    width: 390px; height: 844px; background: var(--paper);
+    border-radius: 24px; overflow: hidden; position: relative;
+    box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    display: flex; flex-direction: column;
+  }
+  #p2, #p2b { display: block; overflow-y: auto; scrollbar-width: none; }
+  #p2::-webkit-scrollbar, #p2b::-webkit-scrollbar { display: none; }
+  .screen-scroll { flex: 1; overflow-y: auto; scrollbar-width: none; }
+  .screen-scroll::-webkit-scrollbar { display: none; }
+
+  /* ── P1 ── */
+  .p1-header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 52px 20px 0;
+  }
+  .p1-logo { font-size: 17px; font-weight: 800; letter-spacing: 2px; color: var(--ink); }
+  .p1-search { font-size: 13px; color: var(--ink2); letter-spacing: 1px; }
+  .p1-hero { padding: 38px 20px 26px; }
+  .p1-dateline {
+    font-family: "Courier New", monospace; font-size: 11px; letter-spacing: 1px;
+    color: var(--ink2); margin-bottom: 18px;
+  }
+  .p1-h1 { font-size: 62px; line-height: 64px; font-weight: 800; letter-spacing: -2px; color: var(--ink); }
+  .p1-rule { width: 56px; height: 4px; background: var(--red); margin-top: 22px; }
+  .p1-label {
+    padding: 6px 20px 12px; font-size: 11px; letter-spacing: 3px; color: var(--ink2);
+  }
+  .era-block {
+    width: 100%; border: 0; cursor: pointer; text-align: left;
+    padding: 26px 20px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .era-block .left { display: flex; align-items: baseline; gap: 12px; }
+  .era-block .name { font-size: 26px; font-weight: 700; letter-spacing: 4px; }
+  .era-block .alias { font-size: 12px; letter-spacing: 2px; opacity: .72; }
+  .era-block .right { display: flex; align-items: baseline; gap: 10px; font-size: 12px; }
+  .era-block .arrow { font-size: 18px; opacity: .8; }
+
+  .tabbar {
+    height: 74px; border-top: 1px solid var(--line); background: var(--paper);
+    display: flex; align-items: flex-start; padding-top: 12px;
+  }
+  .tab { flex: 1; text-align: center; color: var(--ink2); font-size: 11px; letter-spacing: 2px; }
+  .tab.active { color: var(--ink); position: relative; }
+  .tab.active::after {
+    content: ""; position: absolute; left: 50%; transform: translateX(-50%);
+    bottom: -7px; width: 16px; height: 2px; background: var(--ink);
+  }
+
+  /* ── P2 ── */
+  .p2-top {
+    display: flex; align-items: center; gap: 14px; padding: 50px 20px 0;
+  }
+  .p2-back { font-size: 20px; color: var(--ink); cursor: pointer; background: none; border: 0; }
+  .p2-count { font-family: "Courier New", monospace; font-size: 11px; color: var(--ink2); margin-left: auto; letter-spacing: 1px; }
+  .p2-title-row { padding: 26px 20px 0; }
+  .p2-title { font-size: 44px; font-weight: 800; letter-spacing: -1px; line-height: 48px; }
+  .p2-bar { width: 40px; height: 4px; margin-top: 14px; }
+  .filter-row {
+    display: flex; gap: 22px; padding: 22px 20px 10px; overflow-x: auto; scrollbar-width: none;
+  }
+  .filter-row::-webkit-scrollbar { display: none; }
+  .fopt {
+    background: none; border: 0; cursor: pointer; white-space: nowrap;
+    font-size: 13px; letter-spacing: 1px; color: var(--ink2); padding-bottom: 5px;
+  }
+  .fopt.on { color: var(--ink); font-weight: 700; border-bottom: 2px solid var(--ink); }
+  .site-row {
+    display: flex; gap: 14px; padding: 16px 20px; border-bottom: 1px solid var(--line); cursor: pointer;
+  }
+  .site-thumb { width: 88px; height: 66px; flex: none; }
+  .site-info { min-width: 0; }
+  .site-name { font-size: 17px; font-weight: 700; color: var(--ink); }
+  .site-meta {
+    font-family: "Courier New", monospace; font-size: 11px; color: var(--ink2);
+    margin-top: 4px; letter-spacing: .5px;
+  }
+  .site-sum {
+    font-size: 12px; color: var(--ink2); line-height: 17px; margin-top: 5px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* ── P3 ── */
+  .d-hero { height: 380px; position: relative; padding: 18px 20px 26px; display: flex; flex-direction: column; }
+  .d-back { font-size: 14px; color: #F5EFE2; opacity: .9; }
+  .d-hero .spacer { flex: 1; }
+  .d-name { font-size: 32px; font-weight: 800; letter-spacing: 1px; color: #F5EFE2; line-height: 40px; }
+  .d-meta { font-family: "Courier New", monospace; font-size: 11px; letter-spacing: 1px; color: #F5EFE2; opacity: .75; margin-top: 10px; }
+  .toc-row {
+    padding: 15px 20px; border-bottom: 1px solid var(--line);
+    font-size: 14px; letter-spacing: 2px; color: var(--ink); cursor: pointer;
+  }
+  .toc-row.on { color: var(--red); font-weight: 800; }
+  .d-sec { padding: 0 20px 26px; scroll-margin-top: 8px; }
+  .d-sec.alt { background: #EFE8D8; }
+  .d-sec-head { display: flex; align-items: baseline; gap: 10px; padding: 26px 0 12px; }
+  .d-num { font-size: 13px; color: var(--red); }
+  .d-label { font-size: 22px; font-weight: 800; letter-spacing: 4px; color: var(--ink); }
+  .d-para { font-size: 14px; line-height: 24px; color: #4A443B; }
+  .d-poem { margin-bottom: 18px; }
+  .d-poem .t { font-size: 17px; line-height: 29px; font-style: italic; color: var(--ink); }
+  .d-poem .a { font-size: 11px; color: var(--ink2); margin-top: 6px; }
+  .d-empty { font-size: 13px; color: #9A9184; }
+  .d-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .d-tag { font-size: 11px; color: var(--ink2); border: 1px solid #D8CFBB; padding: 5px 10px; }
+  .d-relic-label { font-size: 11px; letter-spacing: 3px; color: var(--ink2); margin: 24px 0 12px; }
+  .d-relics { display: flex; gap: 18px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px; padding: 0 20px; }
+  .d-relics::-webkit-scrollbar { display: none; }
+  .relic { flex: none; width: 120px; }
+  .relic .sw { width: 120px; height: 120px; }
+  .relic .n { font-size: 12px; font-weight: 700; color: var(--ink); margin-top: 8px; line-height: 16px; }
+  .relic .m { font-size: 10px; color: var(--ink2); margin-top: 3px; }
+
+  /* ── P4 深色展签（风格B） ── */
+  #p4 { background: #191713; color: #EFE9DC; }
+  .r-top { display: flex; justify-content: space-between; align-items: baseline; padding: 52px 24px 0; }
+  .r-back { font-size: 13px; color: #98907F; cursor: pointer; }
+  .r-cap { font-size: 11px; letter-spacing: 3px; color: #98907F; }
+  .r-stage { height: 320px; display: flex; align-items: center; justify-content: center; position: relative; }
+  .r-glow {
+    position: absolute; width: 380px; height: 380px; border-radius: 50%;
+    background: radial-gradient(circle, var(--glow) 0%, rgba(0,0,0,0) 65%);
+  }
+  .r-object { width: 210px; height: 210px; opacity: .92; position: relative; }
+  .r-name { font-size: 24px; font-weight: 800; letter-spacing: 1px; color: #EFE9DC; padding: 0 24px; }
+  .r-dateline { font-size: 11px; letter-spacing: 2px; color: #D0AA27; padding: 8px 24px 20px; }
+  .r-attr { margin: 0 24px; border-top: 1px solid #2E2A23; }
+  .r-attr .row {
+    display: flex; justify-content: space-between; padding: 13px 0;
+    border-bottom: 1px solid #2E2A23; font-size: 13px;
+  }
+  .r-attr .k { font-size: 11px; letter-spacing: 2px; color: #98907F; }
+  .r-attr .v { color: #EFE9DC; }
+  .r-sum { font-size: 14px; line-height: 24px; color: #98907F; padding: 16px 24px 0; }
+  .r-actions { display: flex; gap: 12px; padding: 24px; margin-top: auto; }
+  .r-btn {
+    flex: 1; height: 44px; background: transparent; border: 1px solid #D0AA27; color: #D0AA27;
+    font-size: 13px; cursor: pointer; font-family: inherit;
+  }
+  .r-btn.faved { background: #D0AA27; color: #191713; font-weight: 700; }
+  .r-btn.alt { border-color: #2E2A23; background: #211E19; color: #EFE9DC; }
+
+  /* ── P5 收藏 ── */
+  .f-top { display: flex; justify-content: space-between; align-items: baseline; padding: 50px 20px 0; }
+  .f-back { font-size: 14px; color: var(--ink2); cursor: pointer; }
+  .f-count { font-family: "Courier New", monospace; font-size: 11px; color: var(--ink2); }
+  .f-title { font-size: 44px; font-weight: 800; letter-spacing: -1px; line-height: 48px; padding: 26px 20px 0; }
+  .f-bar { width: 40px; height: 4px; background: var(--red); margin: 14px 20px 16px; }
+  .f-views { display: flex; gap: 24px; padding: 0 20px 10px; }
+  .f-view { font-size: 13px; letter-spacing: 1px; color: #9A9184; cursor: pointer; padding-bottom: 4px; }
+  .f-view.on { color: var(--ink); font-weight: 800; border-bottom: 2px solid var(--ink); }
+  .fav-group { padding: 18px 20px 4px; display: flex; align-items: center; gap: 10px; }
+  .fav-group .dot { width: 10px; height: 10px; }
+  .fav-group .g { font-size: 13px; font-weight: 800; letter-spacing: 2px; color: var(--ink); }
+  .fav-row { display: flex; align-items: center; gap: 14px; padding: 10px 20px; border-bottom: 1px solid var(--line); }
+  .fav-row .sw { width: 40px; height: 40px; flex: none; }
+  .fav-row .ti { font-size: 15px; font-weight: 700; color: var(--ink); }
+  .fav-row .me { font-size: 11px; color: var(--ink2); margin-top: 2px; }
+  .fav-row .x { margin-left: auto; color: #C4BAa6; font-size: 14px; cursor: pointer; }
+  .fav-row .x:hover { color: var(--red); }
+  .fav-row .body { min-width: 0; }
+  .fav-empty { padding: 80px 20px 0; }
+  .fav-empty .big { font-size: 24px; font-weight: 800; color: var(--ink); }
+  .fav-empty .sm { font-size: 12px; color: var(--ink2); margin-top: 12px; line-height: 20px; }
+
+  /* ── P6 笔记 ── */
+  .n-top { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; }
+  .n-back { font-size: 14px; color: var(--ink); cursor: pointer; }
+  .n-title { font-size: 15px; font-weight: 800; letter-spacing: 2px; color: var(--ink);
+    max-width: 190px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .n-save { font-size: 14px; font-weight: 800; letter-spacing: 2px; color: var(--paper);
+    background: var(--ink); padding: 7px 16px; cursor: pointer; }
+  .n-strip { font-family: "Courier New", monospace; font-size: 10px; letter-spacing: 1px;
+    color: var(--ink2); background: #EFE8D8; padding: 8px 20px; }
+  .n-cell { display: flex; align-items: center; gap: 10px; margin: 28px 0 12px; }
+  .n-cell span { font-size: 11px; letter-spacing: 3px; color: var(--ink2); }
+  .n-cell i { flex: 1; height: 1px; background: var(--line); }
+  .n-card { background: #EFE8D8; border-left: 3px solid var(--line); padding: 16px; margin-bottom: 12px; cursor: pointer; }
+  .n-card.editing { background: #E7DEC9; border-left-color: var(--red); }
+  .n-card .tx { font-size: 14px; line-height: 23px; color: var(--ink);
+    display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+  .n-card .ft { display: flex; align-items: center; margin-top: 10px; font-size: 10px; color: var(--ink2); }
+  .n-card .ft .sp { margin-left: auto; }
+  .n-card .ft .rw { color: var(--red); font-size: 11px; margin-left: 14px; }
+  .n-card .ft .dl { color: var(--ink2); font-size: 11px; margin-left: 12px; cursor: pointer; }
+  .n-meta { font-family: "Courier New", monospace; font-size: 10px; letter-spacing: 1px; color: var(--ink2); margin-bottom: 10px; }
+  .n-area { width: 100%; height: 180px; background: #FBF8F0; border: 1px solid var(--line); border-radius: 0;
+    font-family: inherit; font-size: 15px; line-height: 26px; color: var(--ink); padding: 14px; resize: none; }
+  .n-area::placeholder { color: #B4AB9A; }
+  .n-count { display: flex; align-items: center; margin-top: 8px; font-size: 10px; color: var(--ink2); }
+  .n-count .ts { margin-left: auto; font-size: 11px; color: var(--red); cursor: pointer; }
+  .n-chip { font-size: 12px; color: var(--ink2); border: 1px solid #D8CFBB; padding: 6px 12px; margin: 0 8px 8px 0; cursor: pointer; }
+  .n-chip.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .n-newtag { display: flex; gap: 10px; margin-top: 12px; }
+  .n-newtag input { flex: 1; height: 38px; background: #FBF8F0; border: 1px solid var(--line); border-radius: 0;
+    font-family: inherit; font-size: 12px; color: var(--ink); padding: 0 12px; }
+  .n-newtag input::placeholder { color: #B4AB9A; }
+  .n-newtag .add { font-size: 12px; color: var(--ink); border: 1px solid var(--ink); padding: 9px 14px; cursor: pointer; }
+  .n-hint { font-size: 11px; letter-spacing: 1px; color: var(--red); margin-top: 18px; }
+  .d-note { font-size: 12px; letter-spacing: 1px; color: var(--ink2); cursor: pointer; }
+  .d-note:hover { color: var(--red); }
+  .d-note.light { color: #F5EFE2; }
+
+  /* ── P7 脉络推荐 ── */
+  .rc-top { display: flex; justify-content: space-between; align-items: baseline; padding: 16px 24px; }
+  .rc-cap { font-size: 11px; letter-spacing: 3px; color: var(--ink2); }
+  .rc-src { display: flex; gap: 14px; align-items: stretch; padding: 8px 24px 26px; }
+  .rc-src .bar { width: 6px; }
+  .rc-src .cap { font-size: 10px; letter-spacing: 3px; color: var(--ink2); }
+  .rc-src .nm { font-size: 26px; font-weight: 800; letter-spacing: 1px; color: var(--ink); margin-top: 6px; }
+  .rc-formula { font-size: 10px; letter-spacing: 1px; color: var(--ink2); padding: 0 24px 18px; }
+  .rc-row { padding: 18px 24px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .rc-row .l1 { display: flex; align-items: baseline; gap: 12px; }
+  .rc-row .rk { font-size: 11px; color: var(--red); }
+  .rc-row .nm { font-size: 19px; font-weight: 800; letter-spacing: 1px; color: var(--ink); flex: 1; }
+  .rc-row .sc { font-size: 11px; color: var(--ink2); }
+  .rc-row .me { font-size: 11px; letter-spacing: 1px; color: var(--ink2); margin-top: 8px; }
+  .rc-row .meter { height: 3px; margin-top: 10px; }
+  .rc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .rc-tag { font-size: 11px; color: var(--ink); background: #EFE8D8; border: 1px solid var(--line); padding: 4px 9px; }
+  .rc-strip { padding: 0 24px 44px; background: #EFE8D8; }
+  .rc-strip .hd { display: flex; align-items: baseline; padding: 26px 0 14px; }
+  .rc-strip .hd .t { font-size: 22px; font-weight: 800; letter-spacing: 4px; color: var(--ink); }
+  .rc-strip .hd .a { margin-left: auto; font-size: 12px; color: var(--red); cursor: pointer; }
+  .rc-mini { padding: 12px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .rc-mini .l1 { display: flex; align-items: baseline; gap: 10px; }
+  .rc-mini .nm { font-size: 16px; font-weight: 700; color: var(--ink); flex: 1; }
+  .rc-mini .sc { font-size: 10px; color: var(--ink2); }
+  .rc-mini .rs { font-size: 11px; color: var(--ink2); margin-top: 6px; }
+
+  /* ── P8 同步面板（风格B 双暗柜） ── */
+  #p8 { background: #191713; color: #EFE9DC; }
+  .s-top { display: flex; justify-content: space-between; align-items: baseline; padding: 52px 24px 16px; }
+  .s-back { font-size: 14px; color: #98907F; cursor: pointer; }
+  .s-title { font-size: 13px; letter-spacing: 4px; color: #EFE9DC; }
+  .s-cap { font-size: 10px; letter-spacing: 2px; color: #D0AA27; }
+  .s-metrics { display: flex; background: #211E19; border-top: 1px solid #2E2A23; border-bottom: 1px solid #2E2A23; }
+  .s-metric { flex: 1; padding: 14px 10px; text-align: center; }
+  .s-metric .k { font-size: 10px; letter-spacing: 2px; color: #98907F; }
+  .s-metric .v { font-size: 15px; color: #EFE9DC; margin-top: 6px; font-family: 'Courier New', monospace; }
+  .s-mdiv { width: 1px; background: #2E2A23; }
+  .s-cabs { display: flex; gap: 12px; padding: 22px 24px 0; position: relative; }
+  .s-cab { flex: 1; height: 190px; background: #211E19; border: 1px solid #2E2A23; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+  .s-cab.on { border-color: #D0AA27; }
+  .s-cab .lb { font-size: 13px; letter-spacing: 3px; color: #98907F; }
+  .s-cab.on .lb { color: #D0AA27; }
+  .s-cab .bar { width: 28px; height: 2px; background: #2E2A23; }
+  .s-cab.on .bar { background: #D0AA27; }
+  .s-cab .sb { font-size: 10px; letter-spacing: 1px; color: #98907F; text-align: center; padding: 0 10px; }
+  .s-cab.on .sb { color: #EFE9DC; }
+  .s-cab .rows { font-size: 10px; font-family: 'Courier New', monospace; color: #98907F; }
+  .s-band { position: absolute; top: 32px; left: 50%; margin-left: -1px; width: 2px; height: 150px;
+    background: linear-gradient(180deg, rgba(208,170,39,0) 0%, #D0AA27 50%, rgba(208,170,39,0) 100%); opacity: .15; }
+  .s-band.go { opacity: 1; transition: transform .9s cubic-bezier(.4,0,.2,1); }
+  .s-count { font-size: 10px; letter-spacing: 1px; color: #98907F; text-align: center; padding: 0 24px; margin: 14px 0 18px; }
+  .s-btns { display: flex; gap: 12px; padding: 0 24px; }
+  .s-btn { flex: 1; height: 44px; background: #211E19; border: 1px solid #2E2A23; color: #EFE9DC; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .s-btn.gold { background: #D0AA27; border-color: #D0AA27; color: #191713; font-weight: 700; }
+  .s-btn[disabled] { opacity: .45; cursor: default; }
+  .s-hd { font-size: 11px; letter-spacing: 3px; color: #98907F; padding: 30px 24px 10px; }
+  .s-scroll { flex: 1; overflow-y: auto; scrollbar-width: none; }
+  .s-scroll::-webkit-scrollbar { display: none; }
+  .s-conf { padding: 14px 24px; border-bottom: 1px solid #2E2A23; display: flex; flex-direction: column; gap: 8px; }
+  .s-conf .l1 { display: flex; justify-content: space-between; align-items: baseline; }
+  .s-conf .key { font-size: 12px; font-family: 'Courier New', monospace; color: #EFE9DC; }
+  .s-conf .rsn { font-size: 10px; color: #98907F; }
+  .s-conf .lose { font-size: 11px; font-family: 'Courier New', monospace; color: #98907F; text-decoration: line-through; }
+  .s-conf .win { font-size: 11px; font-family: 'Courier New', monospace; color: #D0AA27; }
+  .s-empty { font-size: 11px; line-height: 19px; color: #98907F; padding: 6px 24px 20px; }
+  /* ── 国风回灌（10-03）：夯层纹 / 剪影兑底 / 微文案 / 失败态 ── */
+  .era-block { position: relative; }
+  .era-block::after { content:''; position:absolute; inset:0; pointer-events:none;
+    background: repeating-linear-gradient(180deg, rgba(245,239,226,.12) 0 1px, transparent 1px 15px); }
+  .era-block[data-era="zhou"]::after, .era-block[data-era="hantang"]::after, .era-block[data-era="song"]::after {
+    background: repeating-linear-gradient(180deg, rgba(31,27,22,.10) 0 1px, transparent 1px 15px); }
+  .relic .sw { position: relative; }
+  .s-micro { text-align:center; font-size:10px; letter-spacing:2px; color:#98907F; margin-top:10px; }
+  .rc-micro { font-size:10px; letter-spacing:1px; color:var(--ink2); margin:14px 0 4px; }
+  #p8f { background:#191713; color:#EFE9DC; }
+  .s-failbar { margin:14px 24px 0; border:1px solid #8E4028; background:#241A15; padding:12px 14px;
+    display:flex; justify-content:space-between; align-items:center; gap:10px; }
+  .s-failbar .tx { font-size:11px; line-height:17px; color:#E8CDBF; letter-spacing:1px; }
+  .s-failbar button { flex:none; height:32px; padding:0 14px; background:#8E4028; border:1px solid #8E4028;
+    color:#F5EFE2; font-size:12px; cursor:pointer; font-family:inherit; }
+  .n-failbar { position:absolute; left:12px; right:12px; bottom:14px; background:#8E4028; color:#F5EFE2;
+    padding:12px 16px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+  .n-failbar .tx { font-size:12px; line-height:18px; letter-spacing:1px; }
+  .n-failbar button { flex:none; background:#F5EFE2; color:#8E4028; border:0; height:30px; padding:0 14px;
+    font-size:12px; font-weight:700; cursor:pointer; font-family:inherit; }
+  .r-micro { text-align:center; font-size:9px; letter-spacing:2px; color:#98907F; margin-top:-4px; }
+  /* 衬线制式：大标题/时代名/五段节题/站名/文物名 → Noto Serif SC（与 ArkTS NotoSerifSC 对齐） */
+  .p1-h1, .era-block .name, .p2-title, .d-name, .d-label, .r-name,
+  .f-title, .fav-empty .big, .rc-src .nm, .rc-strip .hd .t, .n-title {
+    font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  }
+</style>
+</head>
+<body>
+<div class="board-title">黄河记忆 · 风格 A「排版海报流」+ B「暗色展签」 · P1 首页 / P2 列表 / P3 详情 / P4 文物 / P5 收藏 / P6 笔记 / P7 脉络推荐 / P8 同步 / P9 网络图 · 数据为 42 条真实语料</div>
+<div class="board">
+  <div class="stack">
+    <div class="phone" id="p1"></div>
+    <div class="frame-label">P1 首页 — 按年代进入</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p2"></div>
+    <div class="frame-label" id="p2-label">P2 列表</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p2b"></div>
+    <div class="frame-label">P2 列表 · 叠加城市筛选</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p3"></div>
+    <div class="frame-label" id="p3-label">P3 详情 — 点 P2 列表行切换遗址</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p4"></div>
+    <div class="frame-label" id="p4-label">P4 文物展签（风格B）— 点 P3 文物卡切换</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p5"></div>
+    <div class="frame-label">P5 我的收藏 — 点 P3/P4 收藏按钮实时增减</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p6"></div>
+    <div class="frame-label" id="p6-label">P6 笔记 — 点 P3「✎ 笔记」/ P4「✎ 笔记」写入，P5 标签筛选随之生效</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p7"></div>
+    <div class="frame-label" id="p7-label">P7 脉络推荐 — 收藏变化即时改变排序</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p8"></div>
+    <div class="frame-label" id="p8-label">P8 同步面板（风格B）— 切身份后改写同一收藏，再组网同步即出真冲突</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p9"></div>
+    <div class="frame-label" id="p9-label">P9 主题网络图 — 随收藏/笔记/同步即时重算</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p9m"></div>
+    <div class="frame-label" id="p9m-label">我的 — 档案卡，入口通向 P9 / P8 / P6</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p8f"></div>
+    <div class="frame-label">P8 同步失败态 — 对端不可达 · 本机记录原样保留 · 可重试</div>
+  </div>
+  <div class="stack">
+    <div class="phone" id="p6f"></div>
+    <div class="frame-label">P6 存盘失败态 — 草稿保留在编辑器，重试再入库</div>
+  </div>
+</div>
+<script src="_preview_data.js"></script>
+<script>
+const { sites, cfg } = window.__DATA;
+const ERAS = ['yangshao','longshan','xiashang','zhou','hantang','song'];
+const eraInk = e => (e==='zhou'||e==='hantang'||e==='song') ? '#1F1B16' : '#F5EFE2';
+const counts = {}; ERAS.forEach(e => counts[e] = sites.filter(s=>s.era===e).length);
+
+// ── P1 ──
+const p1 = document.getElementById('p1');
+let html = `
+  <div class="p1-header"><span class="p1-logo">黄河记忆</span><span class="p1-search">检索</span></div>
+  <div class="screen-scroll">
+    <div class="p1-hero">
+      <div class="p1-dateline">公元前5000 — 公元1279 &nbsp;·&nbsp; ${sites.length} 处遗址</div>
+      <div class="p1-h1">五千年<br>都在土里</div>
+      <div class="p1-rule"></div>
+    </div>
+    <div class="p1-label">按年代进入</div>`;
+ERAS.forEach(e => {
+  html += `
+    <button class="era-block" data-era="${e}" style="background:${cfg.eraColors[e]};color:${eraInk(e)}">
+      <span class="left"><span class="name">${cfg.eraNames[e]}</span><span class="alias">${cfg.eraAlias[e]}</span></span>
+      <span class="right"><span>${counts[e]} 处</span><span class="arrow">›</span></span>
+    </button>`;
+});
+html += `</div><div class="tabbar">
+  <div class="tab active">年代</div><div class="tab">收藏</div><div class="tab">笔记</div><div class="tab">我的</div>
+</div>`;
+p1.innerHTML = html;
+
+// ── P2 renderer ──
+function renderP2(el, era, cityFilter) {
+  const filtered = sites.filter(s => s.era===era && (!cityFilter || s.city===cityFilter));
+  const cities = [...new Set(sites.filter(s=>s.era===era).map(s=>s.city))];
+  const types  = [...new Set(sites.filter(s=>s.era===era).map(s=>s.siteType))];
+  let h = `
+    <div class="p2-top">
+      <button class="p2-back">‹ 返回</button>
+      <span class="p2-count">${filtered.length} / ${sites.filter(s=>s.era===era).length} 处</span>
+    </div>
+    <div class="p2-title-row">
+      <div class="p2-title">${cfg.eraNames[era]}时代</div>
+      <div class="p2-bar" style="background:${cfg.eraColors[era]}"></div>
+    </div>
+    <div class="filter-row">
+      <button class="fopt ${!cityFilter?'on':''}">全部城市</button>
+      ${cities.map(c=>`<button class="fopt ${cityFilter===c?'on':''}" data-city="${c}">${cfg.cityNames[c]}</button>`).join('')}
+    </div>
+    <div class="filter-row">
+      <button class="fopt on">全部类型</button>
+      ${types.map(t=>`<button class="fopt">${cfg.typeNames[t]}</button>`).join('')}
+    </div>`;
+  filtered.forEach(s => {
+    h += `
+    <div class="site-row">
+      <div class="site-thumb" style="background:${cfg.eraColors[s.era]}"></div>
+      <div class="site-info">
+        <div class="site-name">${s.name}</div>
+        <div class="site-meta">${cfg.eraNames[s.era]} · ${cfg.cityNames[s.city]} · ${cfg.typeNames[s.siteType]}</div>
+        <div class="site-sum">${s.summary}</div>
+      </div>
+    </div>`;
+  });
+  el.innerHTML = h;
+  el.querySelectorAll('.fopt[data-city]').forEach(b => b.addEventListener('click', () => renderP2(el, era, b.dataset.city)));
+  el.querySelector('.p2-back').addEventListener('click', () => renderP2(el, era, null));
+}
+renderP2(document.getElementById('p2'), 'yangshao', null);
+document.getElementById('p2-label').textContent = 'P2 列表 — 仰韶时代（点行看 P3）';
+renderP2(document.getElementById('p2b'), 'hantang', 'luoyang');
+
+// ── P3 ──
+const DEV = { cur: 'deviceA' };   // 当前身份：本机每条写入都带它（对应 deviceId 列）
+const DELF = new Map();           // 收藏墓碑 key -> {time,dev}，与 isDeleted=1 行同构
+const DELN = new Map();           // 笔记墓碑 noteId -> {time,dev,snap}
+const PROG = new Map();           // 'siteId\u001fsection' -> {target,section,done,time,dev}
+const SEC_KEYS = ['arch', 'events', 'poems', 'tourism', 'intro'];
+const FAVS = new Map(); // key 'site:id'|'relic:id' -> {kind,id,siteId,time,dev}
+function favToggle(kind, id, siteId) {
+  const key = kind + ':' + id;
+  const now = Date.now();
+  if (FAVS.has(key)) { FAVS.delete(key); DELF.set(key, { time: now, dev: DEV.cur }); }
+  else { FAVS.set(key, { kind, id, siteId, time: now, dev: DEV.cur }); DELF.delete(key); }
+  renderP5();
+  if (document.getElementById('p7').querySelector('.rc-row')) renderP7();
+  if (document.getElementById('p8')) renderP8();
+  if (window.__P9) window.__P9.refresh();
+}
+const curP4 = { site: 'erlitou', relic: 'elt_bronze_jue' };
+let curP3 = 'erlitou';
+// 预置演示收藏（须在首屏 P3/P4 渲染前写入，按钮初始态才与数据一致）
+[['site','wangchenggang','wangchenggang'], ['site','erlitou','erlitou'], ['relic','elt_bronze_jue','erlitou'], ['relic','bc_caitao_fragment','bancun']]
+  .forEach(([k, id, sId], i) => FAVS.set(k + ':' + id, { kind: k, id, siteId: sId, time: Date.now() - i * 86400000 }));
+const SECS = [['壹','考古'],['贰','历史'],['叁','诗词'],['肆','文旅'],['伍','参观']];
+function renderP3(id, keepScroll) {
+  const el0 = document.getElementById('p3');
+  const oldTop = el0.querySelector('.screen-scroll') ? el0.querySelector('.screen-scroll').scrollTop : 0;
+  const s = sites.find(x => x.id === id); if (!s) return;
+  const el = document.getElementById('p3');
+  const eraC = cfg.eraColors[s.era];
+  let h = `
+    <div class="screen-scroll">
+      <div class="d-hero" style="background:${eraC}">
+        <div style="display:flex;justify-content:space-between;align-items:baseline">
+          <span class="d-back">‹ 返回</span>
+          <span style="display:flex;gap:16px">
+            <span class="d-back" data-note="site:${s.id}" data-ntitle="${s.name} · 全篇" style="cursor:pointer">✎ 笔记</span>
+            <span class="d-back" id="site-fav" style="cursor:pointer">${FAVS.has('site:' + s.id) ? '★ 已收藏' : '☆ 收藏'}</span>
+          </span>
+        </div>
+        <div class="spacer"></div>
+        <div class="d-name">${s.name}</div>
+        <div class="d-meta">${cfg.eraNames[s.era]} · ${cfg.cityNames[s.city]} · ${cfg.typeNames[s.siteType]}</div>
+      </div>`;
+  SECS.forEach((t, i) => {
+    h += `<div class="toc-row" data-toc="${i}">${t[0]}&nbsp;&nbsp;${t[1]}</div>`;
+  });
+  const nb = (tgt, lab) => `<span class="d-back" data-note="${tgt}" data-ntitle="${s.name} · ${lab}" style="cursor:pointer;font-size:12px">✎ 笔记</span>`;
+  h += `
+    <div class="d-sec" id="sec0"><div class="d-sec-head"><span class="d-num">壹</span><span class="d-label">考古</span><span class="d-note" style="margin-left:auto" data-note="site:${s.id}:arch" data-ntitle="${s.name} · 考古">✎ 笔记</span></div>
+      <div class="d-para">${s.archaeology}</div></div>
+    <div class="d-sec alt" id="sec1"><div class="d-sec-head"><span class="d-num">贰</span><span class="d-label">历史</span><span class="d-note" style="margin-left:auto" data-note="site:${s.id}:events" data-ntitle="${s.name} · 历史">✎ 笔记</span></div>
+      <div class="d-para">${s.events}</div></div>
+    <div class="d-sec" id="sec2"><div class="d-sec-head"><span class="d-num">叁</span><span class="d-label">诗词</span><span class="d-note" style="margin-left:auto" data-note="site:${s.id}:poems" data-ntitle="${s.name} · 诗词">✎ 笔记</span></div>`;
+  if (s.poems.length === 0) h += `<div class="d-empty">暂无传世诗词。</div>`;
+  else s.poems.forEach(p => {
+    h += `<div class="d-poem"><div class="t">“${p.text}”</div><div class="a">${p.author} · ${p.source}</div></div>`;
+  });
+  h += `</div>
+    <div class="d-sec alt" id="sec3"><div class="d-sec-head"><span class="d-num">肆</span><span class="d-label">文旅</span><span class="d-note" style="margin-left:auto" data-note="site:${s.id}:tourism" data-ntitle="${s.name} · 文旅">✎ 笔记</span></div>
+      <div class="d-para">${s.tourism}</div>
+      <div class="d-tags">${s.tags.map(t=>`<span class="d-tag">${t}</span>`).join('')}</div></div>
+    <div class="d-sec" id="sec4"><div class="d-sec-head"><span class="d-num">伍</span><span class="d-label">参观</span><span class="d-note" style="margin-left:auto" data-note="site:${s.id}:intro" data-ntitle="${s.name} · 参观">✎ 笔记</span></div>
+      <div class="d-para">${s.intro}</div>`;
+  if (s.relics.length > 0) {
+    h += `<div class="d-relic-label">代表文物</div><div class="d-relics">`;
+    s.relics.forEach(r => {
+      h += `<div class="relic" data-site="${s.id}" data-relic="${r.id}" style="cursor:pointer"><div class="sw" style="background:${cfg.eraColors[r.era]||eraC}">${silSvg(eraInk(r.era), 1)}</div><div class="n">${r.name}</div><div class="m">${r.material}</div></div>`;
+    });
+    h += `</div>`;
+  }
+  h += `</div>`;
+  const mini = recoFor(s.id, 3);
+  h += `<div class="rc-strip"><div class="hd"><span class="t">脉络推荐</span><span class="a" id="p7-all">全部 &#8250;</span></div>
+    ${mini.map(function (r, i) { return recoRowHtml(r, i, true); }).join('')}</div></div>`;
+  el.innerHTML = h;
+  el.querySelector('#p7-all').addEventListener('click', function () { renderP7(); });
+  el.querySelectorAll('.rc-mini[data-go]').forEach(function (row) {
+    row.addEventListener('click', function () { renderP3(row.dataset.go); });
+  });
+  const scroller = el.querySelector('.screen-scroll');
+  el.querySelectorAll('.toc-row').forEach(row => row.addEventListener('click', () => {
+    el.querySelectorAll('.toc-row').forEach(r => r.classList.remove('on'));
+    row.classList.add('on');
+    el.querySelector('#sec' + row.dataset.toc).scrollIntoView({ behavior: 'smooth' });
+    const sec = SEC_KEYS[Number(row.dataset.toc)];
+    PROG.set(s.id + '\u001f' + sec, { target: 'site:' + s.id, section: sec, done: true, time: Date.now(), dev: DEV.cur });
+    renderP8();
+  }));
+  el.querySelectorAll('.relic[data-relic]').forEach(card => card.addEventListener('click', () => {
+    renderP4(card.dataset.site, card.dataset.relic);
+  }));
+  el.querySelectorAll('[data-note]').forEach(sp => sp.addEventListener('click', () => {
+    openNote(sp.dataset.note, sp.dataset.ntitle);
+  }));
+  el.querySelector('#site-fav').addEventListener('click', () => {
+    favToggle('site', s.id, s.id);
+    renderP3(s.id);
+  });
+  curP3 = s.id;
+  document.getElementById('p3-label').textContent = `P3 详情 — ${s.name}`;
+  scroller.scrollTop = keepScroll ? oldTop : 0;
+}
+const _origRenderP2 = renderP2;
+renderP2 = function (el, era, cityFilter) {
+  _origRenderP2(el, era, cityFilter);
+  el.querySelectorAll('.site-row').forEach((row, i) => {
+    const shown = sites.filter(s => s.era === era && (!cityFilter || s.city === cityFilter));
+    row.addEventListener('click', () => renderP3(shown[i].id));
+  });
+};
+renderP3('erlitou');
+
+// ── 文物卡兑底制式：爵形单色描边剪影（真实影像到齐前统一用）──
+function silSvg(ink, w) {
+  return `<svg viewBox="5 8 62 74" style="position:absolute;inset:0;width:100%;height:100%" fill="none" stroke="${ink}" stroke-width="${w || 1.4}"><path d="M12 32 L40 32 L66 20 M40 32 L44 46 C44 58 36 62 30 62 C24 62 16 58 16 46 L20 32 M27 32 L27 23 M27 23 A2 2 0 1 1 27.1 23 M37 32 L37 25 M37 25 A2 2 0 1 1 37.1 25 M16 44 L9 48 L11 56 L18 53 M24 62 L21 78 M36 62 L39 78 M30 62 L30 78"/></svg>`;
+}
+
+// ── P4 深色展签 ──
+function renderP4(siteId, relicId) {
+  curP4.site = siteId; curP4.relic = relicId;
+  const s = sites.find(x => x.id === siteId); if (!s) return;
+  const r = s.relics.find(x => x.id === relicId); if (!r) return;
+  const eraC = cfg.eraColors[r.era] || cfg.eraColors[s.era];
+  const glow = eraC + '66'; // ~40% alpha
+  const el = document.getElementById('p4');
+  el.innerHTML = `
+    <div class="r-top"><span class="r-back">‹ 返回遗址</span><span class="r-cap">文物</span></div>
+    <div class="r-stage" style="--glow:${glow}">
+      <div class="r-glow"></div>
+      <div class="r-object" style="background:${eraC}">${silSvg(eraInk(r.era) || '#F5EFE2')}</div>
+    </div>
+    <div class="r-micro">剪影示意 · 真实影像整备中</div>
+    <div class="r-name">${r.name}</div>
+    <div class="r-dateline">${cfg.eraNames[r.era]} · ${r.material}</div>
+    <div class="r-attr">
+      <div class="row"><span class="k">年代</span><span class="v">${cfg.eraNames[r.era]}</span></div>
+      <div class="row"><span class="k">材质</span><span class="v">${r.material}</span></div>
+      <div class="row"><span class="k">出土</span><span class="v">${s.name}</span></div>
+      <div class="row"><span class="k">产地</span><span class="v">${cfg.cityNames[s.city]}</span></div>
+    </div>
+    <div class="r-sum">${r.summary}</div>
+    <div class="r-actions">
+      <button class="r-btn ${FAVS.has('relic:' + r.id) ? 'faved' : ''}" id="fav-btn">${FAVS.has('relic:' + r.id) ? '★ 已收藏' : '☆ 收藏'}</button>
+      <button class="r-btn alt" id="relic-note">✎ 笔记</button>
+    </div>`;
+  el.querySelector('#fav-btn').addEventListener('click', () => {
+    favToggle('relic', r.id, s.id);
+    renderP4(siteId, relicId);
+  });
+  el.querySelector('#relic-note').addEventListener('click', () => openNote('relic:' + r.id, r.name));
+  document.getElementById('p4-label').textContent = `P4 文物展签（风格B）— ${r.name}`;
+}
+renderP4('erlitou', 'elt_bronze_jue');
+
+// ── P6 笔记（内存态：与 ArkTS note/note_tag 表同构）──
+const PRESET_TAGS = ['待实地探访', '已去过', '研究资料'];
+const NOTES = [];                 // {noteId,target,text,tags,createTime,updateTime}
+let noteSeq = 0;
+const NST = { target: '', title: '', draft: '', picked: [], editingId: '', savedAt: 0, hint: '', dev: 'deviceA' };
+function p2n(n) { return String(n).padStart(2, '0'); }
+function stamp(ts) {
+  if (!ts) return '—';
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${p2n(d.getMonth() + 1)}-${p2n(d.getDate())} ${p2n(d.getHours())}:${p2n(d.getMinutes())}`;
+}
+function openNote(target, title) {
+  NST.target = target; NST.title = title;
+  NST.draft = ''; NST.picked = []; NST.editingId = ''; NST.hint = '';
+  renderP6();
+}
+function editNote(n) {
+  NST.editingId = n.noteId; NST.draft = n.text; NST.picked = n.tags.slice(); NST.hint = '';
+  renderP6();
+}
+function removeNote(id) {
+  const i = NOTES.findIndex(x => x.noteId === id);
+  if (i >= 0) {
+    DELN.set(id, { time: Date.now(), dev: DEV.cur, snap: NOTES[i] });
+    NOTES.splice(i, 1);
+  }
+  if (NST.editingId === id) { NST.editingId = ''; NST.draft = ''; NST.picked = []; }
+  renderP6(); renderP5(); renderP8();
+  if (window.__P9) window.__P9.refresh();
+}
+function saveNote() {
+  const body = NST.draft.trim();
+  if (!body) { NST.hint = '正文为空，先写点什么。'; renderP6(); return; }
+  const now = Date.now();
+  if (NST.editingId) {
+    const n = NOTES.find(x => x.noteId === NST.editingId);
+    n.text = body; n.tags = NST.picked.slice(); n.updateTime = now; n.dev = DEV.cur;
+    DELN.delete(n.noteId);
+  } else {
+    NOTES.push({ noteId: 'n' + (++noteSeq), target: NST.target, text: body,
+      tags: NST.picked.slice(), createTime: now, updateTime: now, dev: DEV.cur });
+  }
+  NST.savedAt = now;
+  NST.hint = `${NST.editingId ? '已改写' : '已新建'} · ${stamp(now)} · ${DEV.cur}`;
+  NST.editingId = ''; NST.draft = ''; NST.picked = [];
+  renderP6(); renderP5(); renderP8();
+  if (window.__P9) window.__P9.refresh();
+}
+function tagPool() {
+  const pool = PRESET_TAGS.slice();
+  NOTES.forEach(n => n.tags.forEach(t => { if (!pool.includes(t)) pool.push(t); }));
+  return pool;
+}
+// 挂载粒度 site/relic/section：site:x 的筛选同时命中 site:x 与 site:x:intro
+function tagsFor(targetKey) {
+  const out = new Set();
+  NOTES.forEach(n => {
+    if (n.target === targetKey || n.target.startsWith(targetKey + ':')) n.tags.forEach(t => out.add(t));
+  });
+  return [...out];
+}
+function renderP6() {
+  const el = document.getElementById('p6');
+  const mine = NOTES.filter(n => n.target === NST.target);
+  const pool = tagPool();
+  let h = `
+    <div class="n-top">
+      <span class="n-back" id="n-back">&#8249; 返回</span>
+      <span class="n-title">${NST.title || '笔记'}</span>
+      <span class="n-save" id="n-save">保存</span>
+    </div>
+    <div class="n-strip">${NST.target || '—'}&nbsp;&nbsp;|&nbsp;&nbsp;设备 ${DEV.cur}&nbsp;&nbsp;|&nbsp;&nbsp;最近保存 ${stamp(NST.savedAt)}</div>
+    <div class="screen-scroll" style="padding:0 20px 40px">
+      <div class="n-cell"><span>${mine.length ? '已有笔记 ' + mine.length + ' 条' : '尚无笔记'}</span><i></i></div>`;
+  mine.forEach(n => {
+    h += `<div class="n-card ${NST.editingId === n.noteId ? 'editing' : ''}" data-edit="${n.noteId}">
+      <div class="tx">${n.text.replace(/</g, '&lt;')}</div>
+      <div class="ft"><span>${n.tags.length ? n.tags.join(' / ') : '未分类'}</span>
+        <span class="sp"></span><span>${stamp(n.updateTime)}</span>
+        <span class="rw">改写</span><span class="dl" data-del="${n.noteId}">删除</span></div></div>`;
+  });
+  const editing = mine.find(n => n.noteId === NST.editingId);
+  h += `<div class="n-cell"><span>${NST.editingId ? '改写中' : '新建笔记'}</span><i></i></div>`;
+  if (editing) h += `<div class="n-meta">建档 ${stamp(editing.createTime)} &middot; 挂载 ${NST.target}</div>`;
+  h += `<textarea class="n-area" id="n-area" placeholder="随手记下考据、疑问或现场感受……">${NST.draft}</textarea>
+      <div class="n-count"><span id="n-len">${NST.draft.length} 字</span><span class="ts" id="n-ts">＋ 插入当前时间戳</span></div>
+      <div class="n-cell"><span>标签</span><i></i></div>
+      <div style="display:flex;flex-wrap:wrap">
+        ${pool.map(t => `<span class="n-chip ${NST.picked.includes(t) ? 'on' : ''}" data-tag="${t}">${t}</span>`).join('')}
+      </div>
+      <div class="n-newtag"><input id="n-newtag" placeholder="自建标签，如 彩陶 / 都邑"><span class="add" id="n-add">添加</span></div>
+      ${NST.hint ? `<div class="n-hint">${NST.hint}</div>` : ''}
+    </div>`;
+  el.innerHTML = h;
+  const area = el.querySelector('#n-area');
+  area.addEventListener('input', () => {
+    NST.draft = area.value;
+    el.querySelector('#n-len').textContent = area.value.length + ' 字';
+  });
+  el.querySelector('#n-save').addEventListener('click', saveNote);
+  el.querySelector('#n-ts').addEventListener('click', () => {
+    const line = '[' + stamp(Date.now()) + ']';
+    NST.draft = NST.draft ? NST.draft + '\n' + line + ' ' : line + ' ';
+    renderP6();
+  });
+  el.querySelectorAll('[data-edit]').forEach(c => c.addEventListener('click', (ev) => {
+    const del = ev.target.closest('[data-del]');
+    if (del) { removeNote(del.dataset.del); return; }
+    editNote(NOTES.find(n => n.noteId === c.dataset.edit));
+  }));
+  el.querySelectorAll('[data-tag]').forEach(c => c.addEventListener('click', () => {
+    const t = c.dataset.tag, i = NST.picked.indexOf(t);
+    if (i >= 0) NST.picked.splice(i, 1); else NST.picked.push(t);
+    renderP6();
+  }));
+  el.querySelector('#n-add').addEventListener('click', () => {
+    const box = el.querySelector('#n-newtag');
+    const t = box.value.trim();
+    if (!t) return;
+    if (!NST.picked.includes(t)) NST.picked.push(t);
+    renderP6();
+  });
+  document.getElementById('p6-label').textContent =
+    `P6 笔记 — ${NST.title || '未打开'} · 共 ${NOTES.length} 条`;
+}
+// 演示笔记（须在首次渲染前写入，P5 标签筛选态才与数据一致）
+[['site:erlitou:arch', '二里头宫城主轴线的朝向与排水渠道错开约 7 度，需要再核考古报告第 3 卷的探方编号。', ['研究资料']],
+ ['site:wangchenggang', '商城城墙周长近 7 公里，南垣外铜器窖藏坑值得单独跑一趟；秋天去光线更合适。', ['待实地探访', '研究资料']],
+ ['relic:elt_bronze_jue', '爵的三足外撇角度比二里岗期更陡——排谱系时把这个当特征量。', ['研究资料']]]
+  .forEach(function (row, i) {
+    const t = Date.now() - (i + 1) * 3600000;
+    NOTES.push({ noteId: 'n' + (++noteSeq), target: row[0], text: row[1], tags: row[2], createTime: t, updateTime: t });
+  });
+
+// ── P7 脉络推荐：与 ArkTS RecommendService 同口径的镜像实现 ──
+function jaccard(a, b) {
+  if (!a.length || !b.length) return 0;
+  let hit = 0;
+  a.forEach(function (t) { if (b.includes(t)) hit++; });
+  const union = a.slice();
+  b.forEach(function (t) { if (!union.includes(t)) union.push(t); });
+  return hit / union.length;
+}
+function behaviorBonus(cand, history) {
+  let hits = 0;
+  history.slice(0, 20).forEach(function (h) {
+    if (h.id === cand.id) return;
+    if (h.era === cand.era) hits++;
+    if (h.siteType === cand.siteType) hits++;
+    if (h.city === cand.city) hits++;
+  });
+  return Math.min(0.15, hits * 0.05);
+}
+function recommend(src, candidates, excludeIds, history, topN) {
+  const out = [];
+  candidates.forEach(function (c) {
+    if (c.id === src.id || excludeIds.includes(c.id)) return;
+    const reasons = [];
+    let score = 0;
+    if (c.era === src.era) { score += 0.4; reasons.push('同年代'); }
+    if (c.siteType === src.siteType) { score += 0.3; reasons.push('同类型'); }
+    if (c.city === src.city) { score += 0.2; reasons.push('同城'); }
+    const j = jaccard(src.tags, c.tags);
+    if (j > 0) {
+      score += 0.1 * j;
+      const shared = src.tags.filter(function (t) { return c.tags.includes(t); });
+      reasons.push('共享标签 ' + shared.join('、'));
+    }
+    const bonus = behaviorBonus(c, history);
+    if (bonus > 0) { score += bonus; reasons.push('近期行为加权 +' + bonus.toFixed(2)); }
+    out.push({ id: c.id, score: Math.round(score * 1000) / 1000, reasons: reasons });
+  });
+  out.sort(function (x, y) { return y.score !== x.score ? y.score - x.score : (x.id < y.id ? -1 : 1); });
+  return out.slice(0, topN);
+}
+function recoInputs() {
+  return sites.map(function (s) { return { id: s.id, era: s.era, siteType: s.siteType, city: s.city, tags: s.tags || [] }; });
+}
+function favoredSiteIds() {
+  return [...FAVS.values()].filter(function (e) { return e.kind === 'site'; }).map(function (e) { return e.id; });
+}
+function behaviorHistory() {
+  const inputs = recoInputs();
+  return [...FAVS.values()].filter(function (e) { return e.kind === 'site'; })
+    .sort(function (a, b) { return b.time - a.time; })
+    .slice(0, 20)
+    .map(function (e) { return inputs.find(function (i) { return i.id === e.id; }); })
+    .filter(function (x) { return !!x; });
+}
+function recoFor(siteId, topN) {
+  const inputs = recoInputs();
+  const src = inputs.find(function (i) { return i.id === siteId; });
+  if (!src) return [];
+  return recommend(src, inputs, favoredSiteIds(), behaviorHistory(), topN);
+}
+function recoRowHtml(r, i, mini) {
+  const s = sites.find(function (x) { return x.id === r.id; });
+  if (mini) {
+    return `<div class="rc-mini" data-go="${r.id}"><div class="l1"><span class="rk">${i < 9 ? '0' + (i + 1) : i + 1}</span>
+      <span class="nm">${s.name}</span><span class="sc">${r.score.toFixed(2)}</span></div>
+      <div class="rs">${r.reasons.join(' · ')}</div></div>`;
+  }
+  return `<div class="rc-row" data-go="${r.id}"><div class="l1"><span class="rk">${i < 9 ? '0' + (i + 1) : i + 1}</span>
+    <span class="nm">${s.name}</span><span class="sc">${r.score.toFixed(2)}</span></div>
+    <div class="me">${cfg.eraNames[s.era]} · ${cfg.cityNames[s.city]} · ${cfg.typeNames[s.siteType]}</div>
+    <div class="meter" style="background:${cfg.eraColors[s.era]};width:${Math.min(100, Math.round(r.score * 80))}%"></div>
+    <div class="rc-tags">${r.reasons.map(function (t) { return `<span class="rc-tag">${t}</span>`; }).join('')}</div></div>`;
+}
+function renderP7() {
+  const el = document.getElementById('p7');
+  const src = sites.find(function (x) { return x.id === curP3; });
+  const list = recoFor(curP3, 12);
+  let h = `
+    <div class="rc-top"><span class="n-back" id="p7-back">&#8249; 返回</span><span class="rc-cap">脉络</span></div>
+    <div class="rc-src"><div class="bar" style="background:${cfg.eraColors[src.era]}"></div>
+      <div><div class="cap">由这条出发的脉络</div><div class="nm">${src.name}</div></div></div>
+    <div class="rc-formula">同年代 0.4 · 同类型 0.3 · 同城 0.2 · 标签 0.1 · 近期行为 &le;0.15</div>
+    <div class="screen-scroll" style="border-top:1px solid var(--line)">
+      ${list.map(function (r, i) { return recoRowHtml(r, i, false); }).join('')}
+      <div class="rc-micro">这几条都是和${src.name}读到一起的 · 本地计算 · 不联网</div>
+    </div>`;
+  el.innerHTML = h;
+  el.querySelectorAll('[data-go]').forEach(function (row) {
+    row.addEventListener('click', function () { renderP3(row.dataset.go); });
+  });
+  el.querySelector('#p7-back').addEventListener('click', function () { renderP3(curP3); });
+  document.getElementById('p7-label').textContent =
+    `P7 脉络推荐 — ${src.name} · ${list.length} 条（已收藏项被排除）`;
+}
+
+// ── P5 ──
+let F5_VIEW = 'group';
+let F5_TAG = '';
+function favMeta(e) {
+  const s = sites.find(x => x.id === e.siteId);
+  if (e.kind === 'site') return `${cfg.eraNames[s.era]} · ${cfg.cityNames[s.city]} · ${cfg.typeNames[s.siteType]}`;
+  const r = s.relics.find(x => x.id === e.id);
+  return `${cfg.eraNames[r.era]} · ${r.material} · 出自${s.name}`;
+}
+function renderP5() {
+  const el = document.getElementById('p5');
+  const all = [...FAVS.values()].sort((a, b) => b.time - a.time);
+  const list = F5_TAG ? all.filter(e => tagsFor(e.kind + ':' + e.id).includes(F5_TAG)) : all;
+  let h = `
+    <div class="f-top"><span class="f-back">‹ 返回</span><span class="f-count">${list.length} 条</span></div>
+    <div class="f-title">我的收藏</div><div class="f-bar"></div>
+    <div class="f-views">
+      <span class="f-view ${F5_VIEW === 'group' ? 'on' : ''}" data-v="group">按年代分组</span>
+      <span class="f-view ${F5_VIEW === 'time' ? 'on' : ''}" data-v="time">按时间</span>
+    </div>
+    <div class="filter-row" style="padding-top:2px">
+      <button class="fopt ${F5_TAG ? '' : 'on'}" data-tag="">全部</button>
+      ${PRESET_TAGS.map(t => `<button class="fopt ${F5_TAG === t ? 'on' : ''}" data-tag="${t}">${t}</button>`).join('')}
+    </div>`;
+  if (list.length === 0) {
+    h += `<div class="fav-empty"><div class="big">还没有收藏。</div><div class="sm">翻到感兴趣的遗址或文物，点收藏即可在此集结。</div></div>`;
+  } else if (F5_VIEW === 'group') {
+    ERAS.forEach(era => {
+      const items = list.filter(e => {
+        const s = sites.find(x => x.id === e.siteId);
+        return (e.kind === 'site' ? s.era : s.relics.find(x => x.id === e.id).era) === era;
+      });
+      if (items.length === 0) return;
+      h += `<div class="fav-group"><span class="dot" style="background:${cfg.eraColors[era]}"></span><span class="g">${cfg.eraNames[era]}时代</span></div>`;
+      items.forEach(e => { h += favRowHtml(e); });
+    });
+  } else {
+    const days = new Map();
+    list.forEach(e => {
+      const d = new Date(e.time);
+      const k = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      if (!days.has(k)) days.set(k, []);
+      days.get(k).push(e);
+    });
+    days.forEach((arr, k) => {
+      h += `<div class="fav-group"><span class="g" style="font-family:Courier New,monospace;font-weight:400;font-size:12px;color:#6B6357">${k}</span></div>`;
+      arr.forEach(e => { h += favRowHtml(e); });
+    });
+  }
+  el.innerHTML = h;
+  el.querySelectorAll('.fopt[data-tag]').forEach(b => b.addEventListener('click', () => { F5_TAG = b.dataset.tag; renderP5(); }));
+  el.querySelectorAll('.f-view').forEach(v => v.addEventListener('click', () => { F5_VIEW = v.dataset.v; renderP5(); }));
+  el.querySelectorAll('.x').forEach(x => x.addEventListener('click', () => { const e = FAVS.get(x.dataset.k); if (e) favToggle(e.kind, e.id, e.siteId); renderP3(document.getElementById('p3-label').textContent.replace('P3 详情 — ', ''), true); renderP4(curP4.site, curP4.relic); }));
+}
+function favRowHtml(e) {  const s = sites.find(x => x.id === e.siteId);
+  const era = e.kind === 'site' ? s.era : s.relics.find(x => x.id === e.id).era;
+  const title = e.kind === 'site' ? s.name : s.relics.find(x => x.id === e.id).name;
+  return `<div class="fav-row"><div class="sw" style="background:${cfg.eraColors[era]}"></div>
+    <div class="body"><div class="ti">${title}</div><div class="me">${e.kind === 'site' ? '遗址' : '文物'} · ${favMeta(e)}</div></div>
+    <span class="x" data-k="${e.kind}:${e.id}">✕</span></div>`;
+}
+renderP5();
+openNote('site:erlitou:arch', '二里头遗址 · 考古');
+renderP7();
+</script>
+<script src="_p8_sync.js"></script>
+<script src="_p9_network.js"></script>
+<script>
+// ── 缺态帧（10-03 评审补）：P8 同步失败 / P6 存盘失败 ──
+(function () {
+  const p8f = document.getElementById('p8f');
+  p8f.innerHTML = `
+    <div class="s-top"><span class="s-back">&#8249; 返回</span>
+      <span class="s-title">同步面板</span><span class="s-cap">单机仿真</span></div>
+    <div class="s-metrics">
+      <div class="s-metric"><div class="k">同步进度</div><div class="v" style="color:#E8CDBF">46%</div></div>
+      <div class="s-mdiv"></div>
+      <div class="s-metric"><div class="k">最后同步</div><div class="v">10-03 02:14</div></div>
+      <div class="s-mdiv"></div>
+      <div class="s-metric"><div class="k">冲突记录</div><div class="v">0</div></div>
+    </div>
+    <div class="s-cabs">
+      <div class="s-cab on"><div class="lb">设备 A</div><div class="bar"></div>
+        <div class="sb">当前身份 · 本机档案</div><div class="rows">五表 18 条</div></div>
+      <div class="s-cab" style="border-style:dashed"><div class="lb">设备 B</div><div class="bar"></div>
+        <div class="sb">对端不可达</div><div class="rows">五表 — 条</div></div>
+      <div class="s-band" style="opacity:1;transform:translateX(46px)"></div>
+    </div>
+    <div class="s-count">本机五表记录 18 条 · 同步域 favorite / note / note_tag / tag / progress</div>
+    <div class="s-failbar">
+      <div class="tx">同步中断 · 对端档案不可达<br>中断在 favorite 表 46%。本机记录原样保留，重试将从头整体并入，不产生半成品。</div>
+      <button>重试同步</button>
+    </div>
+    <div class="s-btns" style="margin-top:12px">
+      <button class="s-btn">切换身份</button>
+      <button class="s-btn gold" disabled>组网同步</button>
+    </div>
+    <div class="s-micro">两份档案合成一份</div>
+    <div class="s-hd">冲突历史</div>
+    <div class="s-scroll">
+      <div class="s-empty">本次同步未开始比对，没有冲突。失败只影响进度，不影响任何一方已存的数据。</div>
+    </div>`;
+
+  const p6f = document.getElementById('p6f');
+  p6f.innerHTML = `
+    <div class="n-top">
+      <span class="n-back">&#8249; 返回</span>
+      <span class="n-title">随手笔记</span>
+      <span class="n-save">保存</span>
+    </div>
+    <div class="n-strip">notebook:inbox&nbsp;&nbsp;|&nbsp;&nbsp;设备 deviceA&nbsp;&nbsp;|&nbsp;&nbsp;最近保存 —</div>
+    <div class="screen-scroll" style="padding:0 20px 88px">
+      <div class="n-cell"><span>尚无笔记</span><i></i></div>
+      <div class="n-cell"><span>新建笔记</span><i></i></div>
+      <textarea class="n-area" readonly>爵的三足外撇角度比二里岗期更陡——排谱系时把这个当特征量。</textarea>
+      <div class="n-count"><span>31 字</span><span class="ts">＋ 插入当前时间戳</span></div>
+      <div class="n-cell"><span>标签</span><i></i></div>
+      <div style="display:flex;flex-wrap:wrap">
+        <span class="n-chip on">研究资料</span><span class="n-chip">待实地探访</span><span class="n-chip">已去过</span>
+      </div>
+    </div>
+    <div class="n-failbar">
+      <div class="tx">没能存进本机 · 草稿已保留<br>再次点保存即可；连续失败时请先退出本页重试</div>
+      <button>重试保存</button>
+    </div>`;
+})();
+</script>
+</body>
+</html>

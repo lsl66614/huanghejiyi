@@ -1,0 +1,67 @@
+{
+  "id": "miaodigou",
+  "name": "庙底沟遗址",
+  "city": "sanmenxia",
+  "era": "yangshao",
+  "site_type": "kiln",
+  "summary": "仰韶文化庙底沟类型命名地，1956年为配合三门峡水库工程抢救发掘，首次确认仰韶至龙山的地层先后关系，出土海量鸟纹、花瓣纹彩陶，是史前艺术向外辐射的核心。",
+  "tags": [
+    "仰韶文化命名地",
+    "彩陶艺术",
+    "史前聚落",
+    "全国重点文物保护单位"
+  ],
+  "sections": {
+    "intro": "庙底沟遗址位于河南省三门峡市湖滨区，南依青龙河，地处黄河与洛、渭交汇地带。遗址包含仰韶文化庙底沟类型与早期龙山文化（三里桥类型）两类遗存，是新石器时代中期规模最大、影响最广的史前聚落之一。",
+    "arch": "1956年因黄河三门峡水利枢纽建设进行抢救性发掘，发现房基、灰坑、墓葬、窑址等大量遗迹，出土彩陶残片以千计；地层上明确仰韶文化层被龙山时代遗存叠压，首次以考古地层学确立了仰韶、龙山两期文化的先后关系。",
+    "events": "1956年发掘后确立\"庙底沟类型\"命名，其花瓣纹、鸟纹彩陶向四周扩散，覆盖范围东到鲁豫、南达江汉、西抵甘青，被视为中华文明起源\"重瓣花心\"的关键一环；2022年河南省文物考古研究院对遗址开展新的考古调查与勘探工作。",
+    "poems": [],
+    "tourism": "遗址上建有庙底沟考古英雄纪念馆与仰韶文化中轴线景观，馆舍免费开放，可参观彩陶展陈与遗址保护展示区，是三门峡黄河文化旅游线的核心节点。"
+  },
+  "images": [
+    "images/miaodigou/real_caitao_pen.webp",
+    "images/miaodigou/real_miaodigou_taogi.webp",
+    "images/miaodigou/huabanwen_caitao.webp",
+    "images/miaodigou/fangji_jiugeng.webp"
+  ],
+  "relics": [
+    {
+      "id": "mdg_huaibanwen_caitao",
+      "name": "花瓣纹彩陶残片",
+      "era": "yangshao",
+      "summary": "庙底沟类型标志性纹样，以黑彩绘弧线与圆点组合成二方连续花瓣纹，是仰韶彩陶艺术的巅峰样式，遗址出土数量巨大。",
+      "material": "陶",
+      "images": [
+        "images/miaodigou/huabanwen_caitao.webp"
+      ],
+      "source": "中国国家博物馆、三门峡庙底沟博物馆公开藏品资料"
+    },
+    {
+      "id": "mdg_ji_gou",
+      "name": "骨钩",
+      "era": "yangshao",
+      "summary": "遗址出土的骨制生产工具，制作精细，反映庙底沟先民渔猎与手工业并重的生计形态。",
+      "material": "骨",
+      "images": [
+        "images/miaodigou/fangji_jiugeng.webp"
+      ],
+      "source": "《庙底沟与三里桥》发掘报告（科学出版社）"
+    },
+    {
+      "id": "mdg_zhixing_ji",
+      "name": "直口深腹陶缸",
+      "era": "yangshao",
+      "summary": "庙底沟类型典型日用陶器，夹砂灰陶，腹部常见烟熏痕迹，与窑址、灶址出土组合共同复原当时炊煮场景。",
+      "material": "陶",
+      "images": [
+        "images/miaodigou/fangji_jiugeng.webp"
+      ],
+      "source": "《庙底沟与三里桥》发掘报告（科学出版社）"
+    }
+  ],
+  "source": [
+    "北京大学考古系、文物出版社：《庙底沟与三里桥》发掘报告",
+    "三门峡市文物考古研究院公开展陈资料（庙底沟考古英雄纪念馆）",
+    "全国重点文物保护单位名录（文物出版社《中国文物地图集·河南分册》）"
+  ]
+}
