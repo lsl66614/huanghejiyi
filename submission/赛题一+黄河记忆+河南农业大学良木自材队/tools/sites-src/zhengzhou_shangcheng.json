@@ -1,0 +1,79 @@
+{
+  "id": "zhengzhou_shangcheng",
+  "name": "郑州商城遗址",
+  "city": "zhengzhou",
+  "era": "xiashang",
+  "site_type": "capital",
+  "summary": "郑州市区的商代早期都城遗址，1955年发现，夯土城垣宏阔，出土杜岭方鼎等重器，是国内已知最早的商代有夯土城墙的都城。",
+  "tags": [
+    "商早期都邑",
+    "杜岭方鼎",
+    "城墙遗址",
+    "青铜时代"
+  ],
+  "sections": {
+    "intro": "郑州商城遗址位于河南省郑州市区，发现于1955年，属商代早期（约公元前16世纪至前13世纪），是国内已知最早的一座有夯土城墙的商代都城遗址。城垣、宫殿区与手工业作坊、窖藏共同构成规模宏大的商代都邑景观。",
+    "arch": "遗址发现大型夯土内外城墙与宫殿基址，出土陶器、原始瓷器、玉器、石器、骨器、象牙器及刻字卜骨等；青铜器以杜岭方鼎最为著名，1974年出土的两件大方鼎一号现藏中国国家博物馆、二号藏河南博物院，向阳回族食品厂窖藏出土的牛首尊亦为商代青铜礼器精品。",
+    "events": "1955年发现后持续勘探发掘；1974年张寨南街窖藏出土两件大型铜方鼎，震动学界；关于商城'亳都'属性的讨论延续数十年，使其成为夏商之际都邑制度与早商文明研究的关键支点。",
+    "poems": [
+      {
+        "text": "商邑翼翼，四方之极。",
+        "author": "佚名（《诗经》所传）",
+        "source": "《诗经·商颂·殷武》"
+      }
+    ],
+    "tourism": "城墙遗址现存段已建成郑州商都遗址公园并免费开放，郑州商都遗址博物院（商城路与人民路交叉口附近）实行预约参观，每日9:00—17:00，周一闭馆（法定节假日除外），以官方公告为准。"
+  },
+  "images": [
+    "images/zhengzhou_shangcheng/real_chengqiang_02.webp",
+    "images/zhengzhou_shangcheng/real_shangcheng_qiang.webp",
+    "images/zhengzhou_shangcheng/chengqiang_hangtu.webp",
+    "images/zhengzhou_shangcheng/duling_fangding.webp"
+  ],
+  "relics": [
+    {
+      "id": "zz_duling_fangding_yihao",
+      "name": "杜岭方鼎（一号）",
+      "era": "xiashang",
+      "summary": "1974年郑州商城张寨南街窖藏出土的大型兽面纹方鼎，一号现藏中国国家博物馆，是商代早期青铜铸造技术与礼制的代表性重器。",
+      "material": "铜",
+      "images": [
+        "images/zhengzhou_shangcheng/duling_fangding.webp"
+      ]
+    },
+    {
+      "id": "zz_cattle_head_zun",
+      "name": "牛首尊",
+      "era": "xiashang",
+      "summary": "出土于郑州商城内向阳回族食品厂窖藏的商代盛酒礼器，饰牛首形，造型雄健，与方鼎等构成商城青铜窖藏的重要组合。",
+      "material": "铜",
+      "images": [
+        "images/zhengzhou_shangcheng/niushou_zun.webp"
+      ]
+    },
+    {
+      "id": "zz_inscribed_bone",
+      "name": "刻字卜骨",
+      "era": "xiashang",
+      "summary": "商城遗址内外出土的商代刻字卜骨，与安阳殷墟甲骨前后相续，是研究汉字起源与商代占卜制度的珍贵实物资料。",
+      "material": "骨",
+      "images": [
+        "images/zhengzhou_shangcheng/chengqiang_hangtu.webp"
+      ]
+    },
+    {
+      "id": "zz_proto_porcelain",
+      "name": "原始瓷器",
+      "era": "xiashang",
+      "summary": "郑州商城出土的商代早期原始瓷尊、瓷罐等，釉色青黄，是探索中国瓷器起源阶段的重要实物，多见于高等级灰坑与墓葬。",
+      "material": "瓷",
+      "images": [
+        "images/zhengzhou_shangcheng/shangdu_yuanbowuyuan.webp"
+      ]
+    }
+  ],
+  "source": [
+    "《郑州商代遗址》词条（1955年发现、年代、杜岭方鼎出土与收藏单位、窖藏与卜骨）",
+    "郑州商都遗址博物院公开开放信息"
+  ]
+}

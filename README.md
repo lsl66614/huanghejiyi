@@ -115,8 +115,3 @@ python -I tools/make_submission_pkg.py      # submission/ 下的交付包（清�
 - `docs/PITFALLS.md`：真机与 SDK 踩坑记录（现象 / 原因 / 规则）。
 - `docs/演示脚本.md`：5 分钟演示时间线。
 - `docs/OPEN_SOURCE_REFERENCES.md`：同类项目与官方约束参考。
-
-## 仓库说明
-
-- 本仓库是源码与文档快照：`app/`（HarmonyOS 工程）、`tools/`、`docs/`、`design/`、`设计方案.md`、`路演PPT-提交稿.pptx`、`设计方案-提交稿.docx`。
-- 未随源码上传：`sign/`（调试签名材料，换机需重新生成）、`submission/`（赛题交付压缩包）、`演示视频.mp4`。

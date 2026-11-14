@@ -1,0 +1,61 @@
+%% 黄河记忆（HarmonyOS / ArkTS）L1-L3 结构视图
+%% 证据：app/entry/src/main/ets 实际 import 关系 + tools/run_gates.py 13 道门禁 + 实际运行结果
+%% 状态：current state（2026-11-04 工作树，含未提交改动）
+flowchart TB
+
+  subgraph L2["L2 交付单元：单 HAP（entry-default-signed.hap 23.40 MiB）"]
+    direction TB
+
+    subgraph L3UI["L3 表现层 pages/ — 12,036 行 / 20 文件 / 18 条注册路由"]
+      P1["Index.ets 611"]
+      P2["DetailPage.ets 1292"]
+      P3["RelicPage.ets 1148"]
+      P4["SyncPage.ets 691"]
+      P5["NetworkPage.ets 744"]
+      PX["其余 15 页"]
+    end
+
+    subgraph L3COM["L3 通用件 common/ — 2,858 行 / 29 文件"]
+      C1["DesignTokens / EraTheme"]
+      C2["Accessibility / Motion / PressScale"]
+      C3["SectionTitle / SegmentTab / StatStrip 等 8 件"]
+    end
+
+    subgraph L3SVC["L3 领域层 service/ — 2,930 行 / 21 文件"]
+      S1["纯函数组（禁 @kit）<br/>content / merge / recommend<br/>notes / export / import"]
+      S2["有副作用组<br/>sync/AutoSync / SyncScheduler"]
+    end
+
+    subgraph L3REPO["L3 仓储层 repository/ — 1,730 行 / 10 文件"]
+      R1["ContentRepo 只读语料"]
+      R2["UserDataRepo 门面 + BootGate"]
+      R3["LocalRdbImpl 841 行<br/>RDB / 迁移 / 分布式表"]
+      R4["IDataRepository 接口"]
+    end
+
+    subgraph L3TR["L3 传输层 repository/ITransport"]
+      T1["LoopbackAdapter<br/>仿真：A/B 两份独立库"]
+      T2["SoftBusRdbTransport<br/>真机：软总线 + 分布式 RDB"]
+    end
+
+    subgraph L3MOD["L3 模型层 model/ — 204 行 / 3 文件"]
+      M1["ContentModels / UserDataModels / SyncModels"]
+    end
+
+    ASSET["资产层 rawfile/ 21.3 MB<br/>42 遗址 JSON · 104 文物 · 101 real_ 实拍<br/>7 条路线 · 署名表 · 2 款字体"]
+  end
+
+  L3UI -->|"只读状态"| L3COM
+  L3UI -->|"读语料 / 读写用户数据"| L3REPO
+  L3UI -->|"调领域能力"| L3SVC
+  L3COM -->|"设计令牌 / 年代主题"| L3UI
+  L3COM -.->|"反向依赖（3 处）<br/>AppNavBar→SyncStatus<br/>RelatedNotes→NoteReview"| L3SVC
+  L3SVC -->|"类型依赖"| L3MOD
+  L3SVC -->|"违反纯函数：引 @kit + repository"| L3REPO
+  L3REPO -->|"DO / SyncRecord"| L3MOD
+  L3REPO --> L3TR
+  L3UI --> ASSET
+  L3REPO --> ASSET
+
+  GATE["门禁层 tools/ 7,499 行<br/>13 道：validate / validate-src / attribution / poems / contrast<br/>tokens / visual / aging / a11y / motion / font / tsbuild / unittest"]
+  GATE -.->|"阻断出包"| L2

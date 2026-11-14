@@ -1,0 +1,63 @@
+{
+  "id": "duling_fangding",
+  "name": "商代杜岭方鼎（郑州商城出土）",
+  "city": "zhengzhou",
+  "era": "xiashang",
+  "site_type": "burial",
+  "summary": "1974年郑州张寨南街（杜岭）出土一对商前期青铜方鼎，大者通高一米余、重约八十六公斤，为迄今所见最早、最大的商代前期方鼎，现分藏河南博物院与中国国家博物馆。",
+  "tags": [
+    "杜岭方鼎",
+    "商前期重器",
+    "郑州商城",
+    "镇馆之宝"
+  ],
+  "sections": {
+    "intro": "杜岭方鼎1974年出于郑州市金水区张寨南街商代窖藏（或埋藏坑）地点，近内城城墙东南隅外，同出云纹铜爵、斝等容器。两鼎一大一小，均作方唇、直壁、四柱足，通体以兽面纹为主纹。",
+    "arch": "大杜岭鼎通高约100厘米、重约86.4公斤（小者约20余公斤，存目待核），范铸工艺分铸接合法，纹饰带以雷纹衬地、兽面凸鼓；与河北藁城台西、辉县琉璃阁所见商前期方鼎比较，杜岭大鼎年代与体量居先，实证郑州商城早期国家礼制高度。",
+    "events": "出土即配合郑州商城内城垣、铸铜与制骨作坊群研究，确认商城为商前期都邑（'隞都'说主地）；1990年代以后大鼎作为中原青铜文明象征多次外展，小鼎藏河南博物院。",
+    "poems": [
+      {
+        "text": "赳赳武夫，公侯干城。",
+        "author": "佚名",
+        "source": "《诗经·周南·兔罝》"
+      }
+    ],
+    "tourism": "河南博物院（郑州市金水区）常设'杜岭方鼎'于基本陈列；中国国家博物馆'古代中国'展陈见另一件，观展需预约。"
+  },
+  "images": [
+    "images/duling_fangding/real_ruding_fangding.webp",
+    "images/duling_fangding/duling_fangding_da.webp",
+    "images/duling_fangding/shoumian_wen_tuo.webp",
+    "images/duling_fangding/chutu_keng_yuanzhu.webp"
+  ],
+  "relics": [
+    {
+      "id": "ad_duling_ding",
+      "name": "杜岭方鼎（大）",
+      "era": "xiashang",
+      "summary": "商代前期最大最前方鼎，方唇直壁四柱足，兽面雷纹带横列腹面，铸造代表二里岗期青铜工业顶点。",
+      "material": "铜",
+      "images": [
+        "images/duling_fangding/duling_fangding_da.webp"
+      ],
+      "source": "河南博物院、中国国家博物馆公开藏品资料"
+    },
+    {
+      "id": "ad_yunwen_jue",
+      "name": "云纹铜爵、铜斝",
+      "era": "xiashang",
+      "summary": "同出酒器组合，云雷纹饰与修长三足风格属商前期典型器类，与方鼎构成早期礼器组合。",
+      "material": "铜",
+      "images": [
+        "images/duling_fangding/shoumian_wen_tuo.webp"
+      ],
+      "source": "《郑州商代铜器窖藏》出土报告资料（文物出版社）"
+    }
+  ],
+  "source": [
+    "郑州市文物工作队在张寨南街发掘清理记录（1974）",
+    "河南博物院基本陈列说明牌（杜岭方鼎）",
+    "《中国青铜器全集·商1》图录（文物出版社）"
+  ],
+  "arch": "大杜岭鼎通高约100厘米、重约86.4公斤，小者高近一米、重二十余公斤（称重数据以馆藏公布为准），范铸分铸接合法，纹饰带以雷纹衬地、兽面凸鼓；与冀南、豫北所见商前期方鼎比较，杜岭大鼎年代与体量居前，实证郑州商城早期国家礼制高度。"
+}

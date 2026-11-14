@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "OpenHarmony",
+        "material": {
+          "storeFile": "E:/ .stepclaw/huanghe-memory/sign/hh-debug.p12",
+          "storePassword": "0000001697622b5773b2c3945fd567e7384119ea41b56fc1cb1fccab3c0353146f6fe9ac5619",
+          "keyAlias": "hh-app",
+          "keyPassword": "0000001697622b5773b2c3945fd567e7384119ea41b56fc1cb1fccab3c0353146f6fe9ac5619",
+          "signAlg": "SHA256withECDSA",
+          "profile": "E:/ .stepclaw/huanghe-memory/sign/hh-debug-profile.p7b",
+          "certpath": "E:/ .stepclaw/huanghe-memory/sign/app-debug-cert.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "26.0.0",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

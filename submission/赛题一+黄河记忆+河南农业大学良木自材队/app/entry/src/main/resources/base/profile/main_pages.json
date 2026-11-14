@@ -1,0 +1,25 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ListPage",
+    "pages/DetailPage",
+    "pages/RelicPage",
+    "pages/RelicListPage",
+    "pages/RouteListPage",
+    "pages/RoutePage",
+    "pages/SearchPage",
+    "pages/NotePage",
+    "pages/RecyclePage",
+    "pages/TargetPickerPage",
+    "pages/RecommendPage",
+    "pages/SyncPage",
+    "pages/NetworkPage",
+    "pages/CreditsPage",
+    "pages/MinePage",
+    "pages/ArchivePage",
+    "pages/FavoritesPage",
+    "pages/NoteCenterPage",
+    "pages/StudyPage",
+    "pages/ExportPage"
+  ]
+}

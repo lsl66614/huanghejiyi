@@ -1,0 +1,70 @@
+{
+  "id": "erlitou",
+  "name": "二里头遗址",
+  "city": "luoyang",
+  "era": "xiashang",
+  "site_type": "capital",
+  "summary": "洛阳偃师的夏代中晚期都城遗址，1959年由徐旭生调查发现，发现中国最早的宫城与青铜礼容器群，被誉为'最早的中国'。",
+  "tags": [
+    "夏都",
+    "最早的中国",
+    "青铜礼器",
+    "宫城"
+  ],
+  "sections": {
+    "intro": "二里头遗址位于河南省洛阳市偃师区，距今约3800—3500年，学界普遍认定为夏代中晚期都城遗存。遗址发现由中国科学院考古研究所数十年持续发掘，其宫城、主干道路网与官营手工业作坊构成中国早期文明都城制度的典范。",
+    "arch": "遗址拥有中国最早的封闭式围墙宫城，外围发现'井'字形主干道路网；出土绿松石龙形器、镶嵌绿松石兽面纹铜牌饰、乳钉纹铜爵等重要遗物，其中乳钉纹铜爵被称为'中华第一爵'，是中国已知最早的青铜容器之一。相关考古成果集中陈列于二里头夏都遗址博物馆。",
+    "events": "1959年历史学家徐旭生率队在'夏墟'调查中确认遗址；1988年公布为第三批全国重点文物保护单位；二里头遗址的宫城布局与青铜礼器群被视为中国广域王权国家形成的关键实证。",
+    "poems": [
+      {
+        "text": "昔伊、洛竭而夏亡。",
+        "author": "左丘明（旧题）",
+        "source": "《国语·周语上》"
+      }
+    ],
+    "tourism": "遗址旁建有二里头夏都遗址博物馆，对公众开放，一般实行预约参观、周一闭馆，具体开放时间与票务信息以博物馆官方公告为准。"
+  },
+  "images": [
+    "images/erlitou/real_yizhi_02.webp",
+    "images/erlitou/real_yizhi_01.webp",
+    "images/erlitou/gongcheng_jianzhuji.webp",
+    "images/erlitou/tongjue_rudingwen.webp"
+  ],
+  "relics": [
+    {
+      "id": "elt_bronze_jue",
+      "name": "乳钉纹铜爵",
+      "era": "xiashang",
+      "summary": "二里头遗址出土的长流尖尾铜爵，腹饰乳钉纹，被誉为'中华第一爵'，是中国已知最早的青铜容器之一，现藏二里头夏都遗址博物馆。",
+      "material": "铜",
+      "images": [
+        "images/erlitou/tongjue_rudingwen.webp"
+      ]
+    },
+    {
+      "id": "elt_turquoise_plaque",
+      "name": "镶嵌绿松石兽面纹铜牌饰",
+      "era": "xiashang",
+      "summary": "以青铜为框、密嵌绿松石片构成兽面纹样的牌饰，工艺精湛，是二里头文化礼制用器的代表作，集中陈列于二里头夏都遗址博物馆。",
+      "material": "铜、绿松石",
+      "images": [
+        "images/erlitou/lvsongshi_tongpaishi.webp"
+      ]
+    },
+    {
+      "id": "elt_turquoise_dragon",
+      "name": "绿松石龙形器",
+      "era": "xiashang",
+      "summary": "2002年出土于高等级贵族墓，由两千余片绿松石片组合成龙形，与铜铃同出，是二里头遗址最具影响力的发现之一，现藏二里头夏都遗址博物馆。",
+      "material": "绿松石",
+      "images": [
+        "images/erlitou/turquoise_dragon.webp"
+      ]
+    }
+  ],
+  "source": [
+    "《二里头遗址》词条（位置、1959年发现、宫城布局、出土文物与收藏单位）",
+    "中国社会科学院考古研究所二里头工作队公开发掘资料",
+    "二里头夏都遗址博物馆公开展陈资料"
+  ]
+}

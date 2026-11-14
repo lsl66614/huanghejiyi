@@ -1,0 +1,21 @@
+{
+  "id": "broken_site",
+  "name": "故意坏例（fixture，非真实遗址）",
+  "city": "luoyang",
+  "era": "hantang",
+  "site_type": "capital",
+  "summary": "本文件是 validator 负例 fixture：relics 为空数组（缺遗物条目），poems 中有句无作者，用于确认校验脚本对坏数据非零退出。",
+  "tags": ["fixture", "负例"],
+  "sections": {
+    "intro": "这是用于测试校验脚本失败路径的坏数据文件，不作为任何真实遗址内容使用。",
+    "arch": "发掘信息从略：本文件仅覆盖工具链负例场景，正文内容不对裁判与用户展示。",
+    "events": "此处事件描述仅为占位，长度满足基本校验，缺陷集中在 relics 与 poems 两处。",
+    "poems": [
+      { "text": "弃诗的例子——有句无作者", "author": "", "source": "出处从略" }
+    ],
+    "tourism": "不对外开放（测试数据）。"
+  },
+  "images": ["images/broken_site/a.webp", "images/broken_site/b.webp"],
+  "relics": [],
+  "source": ["tools/merge-tests/fixtures：构建时不参与发布产物"]
+}

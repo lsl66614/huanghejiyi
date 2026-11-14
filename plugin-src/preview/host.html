@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>任务看板 · 模拟宿主</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #e9eaec; }
+  iframe { display: block; width: 100%; height: 100%; border: 0; background: #fff; }
+  #log { position: fixed; right: 8px; bottom: 8px; font: 11px/1.4 monospace; color: #8a8f98; pointer-events: none; }
+</style>
+</head>
+<body>
+<iframe id="frame" src="/app.html" title="任务看板预览"></iframe>
+<div id="log">mock host</div>
+<script>
+  const frame = document.querySelector("#frame")
+  const log = document.querySelector("#log")
+  const theme = new URLSearchParams(location.search).get("theme") === "dark" ? "dark" : "light"
+  const noCaps = new URLSearchParams(location.search).get("nocaps") === "1"
+  const now = new Date().toISOString()
+  let tasks = [
+    { id: "t1", title: "同步计组第三章习题的 27/64 移码答案", notes: "确认教材移码偏置是 128 而不是 IEEE 的 127，并把差异写进讲解页。", stage: "doing", priority: "high", due: "2026-11-12", createdAt: now, updatedAt: now },
+    { id: "t2", title: "黄河记忆答辩材料整理", notes: "把演示脚本、截图和架构图排进一页纸。", stage: "doing", priority: "normal", due: "2026-11-20", createdAt: now, updatedAt: now },
+    { id: "t3", title: "数据结构课程设计：图的最短路径", notes: "", stage: "review", priority: "normal", due: "2026-11-18", createdAt: now, updatedAt: now },
+    { id: "t4", title: "四级真题第二套听力复盘", notes: "错题按题型分类，重点看转折词后面的信息。", stage: "backlog", priority: "low", due: "", createdAt: now, updatedAt: now },
+    { id: "t5", title: "线性代数第五次作业", notes: "", stage: "backlog", priority: "high", due: "2026-11-16", createdAt: now, updatedAt: now },
+    { id: "t6", title: "看板插件安装验证", notes: "确认全局入口和会话入口都能打开页面，明暗主题都不漏白。", stage: "done", priority: "normal", due: "", createdAt: now, updatedAt: now },
+  ]
+
+  const today = () => new Date().toLocaleDateString("sv-SE")
+  const stats = () => {
+    const s = { total: tasks.length, backlog: 0, doing: 0, review: 0, done: 0, overdue: 0, percent: 0 }
+    for (const task of tasks) {
+      s[task.stage] += 1
+      if (task.stage !== "done" && task.due && task.due < today()) s.overdue += 1
+    }
+    s.percent = s.total ? Math.round((s.done / s.total) * 100) : 0
+    return s
+  }
+  const snapshot = () => ({
+    content: [{ type: "text", text: "模拟宿主返回的看板快照" }],
+    structuredContent: { tasks: tasks.map(task => ({ ...task })), stats: stats() },
+  })
+
+  window.addEventListener("message", event => {
+    if (event.source !== frame.contentWindow) return
+    const message = event.data
+    if (!message || message.jsonrpc !== "2.0") return
+    log.textContent = `mock host · ${message.method ?? "response"}`
+    if (message.method === "ui/initialize") {
+      frame.contentWindow.postMessage({
+        jsonrpc: "2.0", id: message.id,
+        result: {
+          protocolVersion: "2026-01-26",
+          hostCapabilities: noCaps ? { serverTools: {}, resources: {} } : { message: {}, serverTools: {}, resources: {}, updateModelContext: {} },
+          hostContext: { theme, displayMode: "fullscreen", availableDisplayModes: ["fullscreen"], locale: "zh-CN", platform: "desktop", containerDimensions: { maxWidth: innerWidth, maxHeight: innerHeight } },
+        },
+      }, "*")
+      return
+    }
+    if (message.method === "ui/notifications/initialized") {
+      frame.contentWindow.postMessage({ jsonrpc: "2.0", method: "ui/notifications/tool-result", params: snapshot() }, "*")
+      return
+    }
+    if (message.method === "tools/call") {
+      const { name, arguments: args } = message.params || {}
+      if (name === "upsert_task") {
+        if (args.id) {
+          const task = tasks.find(item => item.id === args.id)
+          if (task) Object.assign(task, args, { updatedAt: new Date().toISOString() })
+        } else {
+          tasks.unshift({ id: `t${Date.now()}`, title: args.title, notes: args.notes || "", stage: args.stage || "backlog", priority: args.priority || "normal", due: args.due || "", createdAt: new Date().toISOString(), updatedAt: new Date().toISOString() })
+        }
+      } else if (name === "delete_task") {
+        tasks = tasks.filter(task => task.id !== args.id)
+      }
+      frame.contentWindow.postMessage({ jsonrpc: "2.0", id: message.id, result: snapshot() }, "*")
+      return
+    }
+    if (message.id !== undefined) {
+      frame.contentWindow.postMessage({ jsonrpc: "2.0", id: message.id, result: {} }, "*")
+    }
+  })
+</script>
+</body>
+</html>

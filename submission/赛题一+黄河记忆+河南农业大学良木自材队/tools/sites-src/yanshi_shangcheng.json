@@ -1,0 +1,57 @@
+{
+  "id": "yanshi_shangcheng",
+  "name": "偃师商城遗址",
+  "city": "luoyang",
+  "era": "xiashang",
+  "site_type": "capital",
+  "summary": "洛阳偃师的早商城址，1983年由中国社会科学院考古研究所发现，大城、小城、宫城三重城垣与石砌排水系统规制严整。",
+  "tags": ["早商都城", "尸乡沟", "三重城垣", "商周考古"],
+  "sections": {
+    "intro": "偃师商城遗址位于河南省洛阳市偃师区城区西侧约一公里处，始建年代约当公元前16世纪，属早商阶段。城址规模宏大、布局规整，与二里头遗址相距不远，是研究夏商之际政权更替与商代早期都邑制度的核心遗址。",
+    "arch": "1983年由中国社会科学院考古研究所汉魏洛阳城工作队勘探确认。城址经分期扩建形成大城、小城与宫城三重城垣体系，城内排水设施完备，护城壕、排水沟、石砌暗渠一应俱全；国库位于宫城西南角，西北侧探明大型仓储区，出土陶器、玉器、石器、骨器、蚌器与原始瓷器等。",
+    "events": "发现后即被列为第三批全国重点文物保护单位（1988年）；因其地理位置与始建年代，学界多将其与文献商代早期'西亳'等记载相联系，关于其始建年代与族属的讨论是夏商周断代与早期文明研究的重要议题。",
+    "poems": [
+      {
+        "text": "天命玄鸟，降而生商。",
+        "author": "佚名（《诗经》所传）",
+        "source": "《诗经·商颂·玄鸟》"
+      }
+    ],
+    "tourism": "遗址位于偃师城区，已建设遗址展示园区，宫殿基址与夯土宫墙有地面标识展示，开放情况以当地文博机构公告为准。"
+  },
+  "images": [
+    "images/yanshi_shangcheng/gongcheng_yiji.webp",
+    "images/yanshi_shangcheng/shiqi_shuidao.webp",
+    "images/yanshi_shangcheng/taoci_liqi.webp"
+  ],
+  "relics": [
+    {
+      "id": "ys_bronze_jue",
+      "name": "单柱铜爵",
+      "era": "xiashang",
+      "summary": "偃师商城出土的商代早期铜礼器之一，与陶、玉、原始瓷等共同构成城内高等级用器组合，为判断城址年代与性质的标尺性材料。",
+      "material": "铜",
+      "images": ["images/yanshi_shangcheng/taoci_liqi.webp"]
+    },
+    {
+      "id": "ys_stone_drainage",
+      "name": "石砌排水暗渠遗存",
+      "era": "xiashang",
+      "summary": "城内以石板砌筑的封闭式排水干渠遗存，与护城壕、排水沟构成完备水系，显示早商都城已具备成熟的城市水利规划能力。",
+      "material": "石",
+      "images": ["images/yanshi_shangcheng/shiqi_shuidao.webp"]
+    },
+    {
+      "id": "ys_pottery_ding",
+      "name": "商代陶鼎",
+      "era": "xiashang",
+      "summary": "商城遗址出土的二里岗期陶系炊器，与鬲、盆等构成日常用器组合，是商城分期与年代序列研究的基础材料，具体器形以正式报告为准。",
+      "material": "陶",
+      "images": ["images/yanshi_shangcheng/taoci_liqi.webp"]
+    }
+  ],
+  "source": [
+    "《偃师商城遗址》词条（1983年发现、三重城垣、排水设施、出土物与1988年第三批全国重点文物保护单位）",
+    "中国社会科学院考古研究所公开考古报告与简报资料"
+  ]
+}

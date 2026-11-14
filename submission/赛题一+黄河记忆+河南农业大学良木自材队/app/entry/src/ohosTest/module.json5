@@ -1,0 +1,36 @@
+{
+  "module": {
+    "name": "entry_test",
+    "type": "feature",
+    "description": "T8 单测：MergeEngine / RecommendService 纯函数用例",
+    "mainElement": "TestAbility",
+    "deviceTypes": [
+      "default"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:test_pages",
+    "abilities": [
+      {
+        "name": "TestAbility",
+        "srcEntry": "./ets/testability/TestAbility.ets",
+        "description": "ohosTest 宿主 Ability",
+        "icon": "$media:icon",
+        "label": "$string:module_test_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

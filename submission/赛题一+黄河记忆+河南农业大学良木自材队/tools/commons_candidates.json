@@ -1,0 +1,1160 @@
+{
+ "erlitou": [
+  {
+   "q": "Erlitou site",
+   "error": "TypeError: fetch failed"
+  },
+  {
+   "q": "Erlitou Zhen",
+   "error": "TypeError: fetch failed"
+  }
+ ],
+ "hanwei_luoyangcheng": [
+  {
+   "q": "Han-Wei Luoyang city",
+   "error": "TypeError: fetch failed"
+  },
+  {
+   "q": "Yongning temple Luoyang",
+   "cands": [
+    {
+     "title": "File:Yongning Temple, Luoyang, Northern Wei (10369634215).jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yongning_Temple,_Luoyang,_Northern_Wei_(10369634215).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Yongning_Temple%2C_Luoyang%2C_Northern_Wei_%2810369634215%29.jpg/1280px-Yongning_Temple%2C_Luoyang%2C_Northern_Wei_%2810369634215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Pagoda of Yongning Temple 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_01.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Pagoda of Yongning Temple 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_02.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_02.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Pagoda of Yongning Temple 03.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_03.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_03.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Pagoda of Yongning Temple 04.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_04.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_04.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Pagoda_of_Yongning_Temple_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251018 Model of Yongning Temple Pagoda.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Model_of_Yongning_Temple_Pagoda.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3c/20251018_Model_of_Yongning_Temple_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Clay Head ofa Female Donor Excavated at Yongning Temple.jpg",
+     "mime": "image/jpeg",
+     "w": 999,
+     "h": 1331,
+     "license": "CC BY-SA 4.0",
+     "artist": "Baomi",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Clay_Head_ofa_Female_Donor_Excavated_at_Yongning_Temple.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Clay_Head_ofa_Female_Donor_Excavated_at_Yongning_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Clay Head of Bhikkhu Excavated at Yongning Temple.jpg",
+     "mime": "image/jpeg",
+     "w": 820,
+     "h": 1094,
+     "license": "CC BY-SA 4.0",
+     "artist": "Baomi",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Clay_Head_of_Bhikkhu_Excavated_at_Yongning_Temple.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Clay_Head_of_Bhikkhu_Excavated_at_Yongning_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ]
+  },
+  {
+   "q": "Luoyang ancient city site",
+   "cands": [
+    {
+     "title": "File:20230124 Luoyi Ancient City 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20230124_Luoyi_Ancient_City_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/20230124_Luoyi_Ancient_City_01.jpg/1280px-20230124_Luoyi_Ancient_City_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241215 Luoyi Ancient City.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241215_Luoyi_Ancient_City.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/20241215_Luoyi_Ancient_City.jpg/1280px-20241215_Luoyi_Ancient_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241215 Site of Xintan in Luoyi Ancient City.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241215_Site_of_Xintan_in_Luoyi_Ancient_City.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/20241215_Site_of_Xintan_in_Luoyi_Ancient_City.jpg/1280px-20241215_Site_of_Xintan_in_Luoyi_Ancient_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251018 Han-Wei Luoyang Ancient City Site Museum.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Han-Wei_Luoyang_Ancient_City_Site_Museum.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/20251018_Han-Wei_Luoyang_Ancient_City_Site_Museum.jpg/1280px-20251018_Han-Wei_Luoyang_Ancient_City_Site_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251018 Model of Mingtang.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Model_of_Mingtang.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/20251018_Model_of_Mingtang.jpg/1280px-20251018_Model_of_Mingtang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251018 Model of Lingtai.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Model_of_Lingtai.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/20251018_Model_of_Lingtai.jpg/1280px-20251018_Model_of_Lingtai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251018 Stone Tiger.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Stone_Tiger.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20251018_Stone_Tiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20251018 Sign of the Sui-Tang Luoyang Ancient City Site at Dingding Gate.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251018_Sign_of_the_Sui-Tang_Luoyang_Ancient_City_Site_at_Dingding_Gate.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20251018_Sign_of_the_Sui-Tang_Luoyang_Ancient_City_Site_at_Dingding_Gate.jpg/1280px-20251018_Sign_of_the_Sui-Tang_Luoyang_Ancient_City_Site_at_Dingding_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "dongjing_zhouqiao": [
+  {
+   "q": "Zhou Bridge Kaifeng",
+   "cands": [
+    {
+     "title": "File:20251109 Site of Zhou Bridge 03.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_03.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/20251109_Site_of_Zhou_Bridge_03.jpg/1280px-20251109_Site_of_Zhou_Bridge_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20251109_Site_of_Zhou_Bridge_01.jpg/1280px-20251109_Site_of_Zhou_Bridge_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_02.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/20251109_Site_of_Zhou_Bridge_02.jpg/1280px-20251109_Site_of_Zhou_Bridge_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 04.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_04.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/20251109_Site_of_Zhou_Bridge_04.jpg/1280px-20251109_Site_of_Zhou_Bridge_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 06.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_06.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/20251109_Site_of_Zhou_Bridge_06.jpg/1280px-20251109_Site_of_Zhou_Bridge_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 05.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_05.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/20251109_Site_of_Zhou_Bridge_05.jpg/1280px-20251109_Site_of_Zhou_Bridge_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 07.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_07.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/20251109_Site_of_Zhou_Bridge_07.jpg/1280px-20251109_Site_of_Zhou_Bridge_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251109 Site of Zhou Bridge 08.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251109_Site_of_Zhou_Bridge_08.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/20251109_Site_of_Zhou_Bridge_08.jpg/1280px-20251109_Site_of_Zhou_Bridge_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Kaifeng excavation",
+   "cands": [
+    {
+     "title": "File:Conquest of the land through seven thousand years (IA CAT31293292).pdf",
+     "mime": "application/pdf",
+     "w": 1095,
+     "h": 1489,
+     "license": "Public domain",
+     "artist": "Lowdermilk, W. C. (Walter Clay), 1888-1974\nUnited States. So",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Conquest_of_the_land_through_seven_thousand_years_(IA_CAT31293292).pdf",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Conquest_of_the_land_through_seven_thousand_years_%28IA_CAT31293292%29.pdf/page1-960px-Conquest_of_the_land_through_seven_thousand_years_%28IA_CAT31293292%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Records of the past (IA gri 33125000987608).pdf",
+     "mime": "application/pdf",
+     "w": 1220,
+     "h": 1725,
+     "license": "Public domain",
+     "artist": "",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Records_of_the_past_(IA_gri_33125000987608).pdf",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Records_of_the_past_%28IA_gri_33125000987608%29.pdf/page1-960px-Records_of_the_past_%28IA_gri_33125000987608%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:CADAL11104250 中國公路交通圖表匯覽.djvu",
+     "mime": "image/vnd.djvu",
+     "w": 4315,
+     "h": 6048,
+     "license": "Public domain",
+     "artist": "HIGHWAYS IN CHINA；全国经济委员会公路处",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:CADAL11104250_%E4%B8%AD%E5%9C%8B%E5%85%AC%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%9C%96%E8%A1%A8%E5%8C%AF%E8%A6%BD.djvu",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/CADAL11104250_%E4%B8%AD%E5%9C%8B%E5%85%AC%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%9C%96%E8%A1%A8%E5%8C%AF%E8%A6%BD.djvu/page1-1280px-CADAL11104250_%E4%B8%AD%E5%9C%8B%E5%85%AC%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%9C%96%E8%A1%A8%E5%8C%AF%E8%A6%BD.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Chine et Chinois d aujourd hui, le nouveau péril jaune.pdf",
+     "mime": "application/pdf",
+     "w": 781,
+     "h": 1247,
+     "license": "Public domain",
+     "artist": "R. D'AUXION DE RUFF",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Chine_et_Chinois_d_aujourd_hui,_le_nouveau_p%C3%A9ril_jaune.pdf",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Chine_et_Chinois_d_aujourd_hui%2C_le_nouveau_p%C3%A9ril_jaune.pdf/page1-500px-Chine_et_Chinois_d_aujourd_hui%2C_le_nouveau_p%C3%A9ril_jaune.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "song_ling": [
+  {
+   "q": "Song tombs Gongyi",
+   "cands": [
+    {
+     "title": "File:Northern Song Imperial Family Tomb - 3.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Northern_Song_Imperial_Family_Tomb_-_3.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Northern_Song_Imperial_Family_Tomb_-_3.jpg/1280px-Northern_Song_Imperial_Family_Tomb_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Northern Song Imperial Family Tomb - 6.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Northern_Song_Imperial_Family_Tomb_-_6.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Northern_Song_Imperial_Family_Tomb_-_6.jpg/1280px-Northern_Song_Imperial_Family_Tomb_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Northern Song Tomb Model 01.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Northern_Song_Tomb_Model_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Northern_Song_Tomb_Model_01.jpg/1280px-Northern_Song_Tomb_Model_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Northern Song Tomb Model 02.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Northern_Song_Tomb_Model_02.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Northern_Song_Tomb_Model_02.jpg/1280px-Northern_Song_Tomb_Model_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Northern Song Tomb Model 05.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Northern_Song_Tomb_Model_05.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Northern_Song_Tomb_Model_05.jpg/1280px-Northern_Song_Tomb_Model_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Song Bronze Mirror, Gongyi 2.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Song_Bronze_Mirror,_Gongyi_2.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Song_Bronze_Mirror%2C_Gongyi_2.jpg/1280px-Song_Bronze_Mirror%2C_Gongyi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Song Bronze Mirror, Gongyi 1.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Song_Bronze_Mirror,_Gongyi_1.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Song_Bronze_Mirror%2C_Gongyi_1.jpg/1280px-Song_Bronze_Mirror%2C_Gongyi_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Map of Northern Song Imperial Tombs and Other Attractions (10203293364).jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Northern_Song_Imperial_Tombs_and_Other_Attractions_(10203293364).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Map_of_Northern_Song_Imperial_Tombs_and_Other_Attractions_%2810203293364%29.jpg/1280px-Map_of_Northern_Song_Imperial_Tombs_and_Other_Attractions_%2810203293364%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Gongyi Songling",
+   "cands": [
+    {
+     "title": "File:GuoSongling.jpg",
+     "mime": "image/jpeg",
+     "w": 180,
+     "h": 371,
+     "license": "Public domain",
+     "artist": "Unknown authorUnknown author",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:GuoSongling.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/GuoSongling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Guo Songling.jpg",
+     "mime": "image/jpeg",
+     "w": 295,
+     "h": 365,
+     "license": "Public domain",
+     "artist": "Unknown authorUnknown author",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Guo_Songling.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/Guo_Songling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20130405 Yongzhao Mausoleum.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20130405_Yongzhao_Mausoleum.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/20130405_Yongzhao_Mausoleum.jpg/1280px-20130405_Yongzhao_Mausoleum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:SONGLING ROAD, SHENZHEN (10).jpg",
+     "mime": "image/jpeg",
+     "w": 8192,
+     "h": 5464,
+     "license": "CC BY-SA 4.0",
+     "artist": "Dinkun Chen",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:SONGLING_ROAD,_SHENZHEN_(10).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/SONGLING_ROAD%2C_SHENZHEN_%2810%29.jpg/1280px-SONGLING_ROAD%2C_SHENZHEN_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:SONGLING ROAD, SHENZHEN.jpg",
+     "mime": "image/jpeg",
+     "w": 7821,
+     "h": 3225,
+     "license": "CC BY-SA 4.0",
+     "artist": "Dinkun Chen",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:SONGLING_ROAD,_SHENZHEN.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/SONGLING_ROAD%2C_SHENZHEN.jpg/1280px-SONGLING_ROAD%2C_SHENZHEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:SONGLING ROAD, SHENZHEN (4).jpg",
+     "mime": "image/jpeg",
+     "w": 7159,
+     "h": 4211,
+     "license": "CC BY-SA 4.0",
+     "artist": "Dinkun Chen",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:SONGLING_ROAD,_SHENZHEN_(4).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SONGLING_ROAD%2C_SHENZHEN_%284%29.jpg/1280px-SONGLING_ROAD%2C_SHENZHEN_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:SONGLING ROAD, SHENZHEN (6).jpg",
+     "mime": "image/jpeg",
+     "w": 6997,
+     "h": 4142,
+     "license": "CC BY-SA 4.0",
+     "artist": "Dinkun Chen",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:SONGLING_ROAD,_SHENZHEN_(6).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/SONGLING_ROAD%2C_SHENZHEN_%286%29.jpg/1280px-SONGLING_ROAD%2C_SHENZHEN_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:SONGLING ROAD, SHENZHEN (15).jpg",
+     "mime": "image/jpeg",
+     "w": 8192,
+     "h": 5464,
+     "license": "CC BY-SA 4.0",
+     "artist": "Dinkun Chen",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:SONGLING_ROAD,_SHENZHEN_(15).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/SONGLING_ROAD%2C_SHENZHEN_%2815%29.jpg/1280px-SONGLING_ROAD%2C_SHENZHEN_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "gongxian_yao": [
+  {
+   "q": "Gongyi kiln",
+   "cands": [
+    {
+     "title": "File:Woman, China, Huangzhi kiln, Gongyi, Henan, Tang dynasty, 618-907 AD, ceramic - Sichuan University Museum - Chengdu, China - DSC06273.jpg",
+     "mime": "image/jpeg",
+     "w": 3368,
+     "h": 4852,
+     "license": "Public domain",
+     "artist": "Daderot",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Woman,_China,_Huangzhi_kiln,_Gongyi,_Henan,_Tang_dynasty,_618-907_AD,_ceramic_-_Sichuan_University_Museum_-_Chengdu,_China_-_DSC06273.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Woman%2C_China%2C_Huangzhi_kiln%2C_Gongyi%2C_Henan%2C_Tang_dynasty%2C_618-907_AD%2C_ceramic_-_Sichuan_University_Museum_-_Chengdu%2C_China_-_DSC06273.jpg/1280px-Woman%2C_China%2C_Huangzhi_kiln%2C_Gongyi%2C_Henan%2C_Tang_dynasty%2C_618-907_AD%2C_ceramic_-_Sichuan_University_Museum_-_Chengdu%2C_China_-_DSC06273.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240914 Gongyi Kiln Site.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1201,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240914_Gongyi_Kiln_Site.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/20240914_Gongyi_Kiln_Site.jpg/1280px-20240914_Gongyi_Kiln_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240914 Huangye Tang Sancai Kiln Site 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1801,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240914_Huangye_Tang_Sancai_Kiln_Site_02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/20240914_Huangye_Tang_Sancai_Kiln_Site_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20240914 Huangye Tang Sancai Kiln Site 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240914_Huangye_Tang_Sancai_Kiln_Site_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/20240914_Huangye_Tang_Sancai_Kiln_Site_01.jpg/1280px-20240914_Huangye_Tang_Sancai_Kiln_Site_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20250809 Gongyi Museum - Celadon Jar of Yaozhou Kiln.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20250809_Gongyi_Museum_-_Celadon_Jar_of_Yaozhou_Kiln.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/20250809_Gongyi_Museum_-_Celadon_Jar_of_Yaozhou_Kiln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20260520 Tri-Color Glazed Pottery Censer with Three Feet.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260520_Tri-Color_Glazed_Pottery_Censer_with_Three_Feet.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/20260520_Tri-Color_Glazed_Pottery_Censer_with_Three_Feet.jpg/1280px-20260520_Tri-Color_Glazed_Pottery_Censer_with_Three_Feet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20260520 Black Glazed Pottery Censer with Three Feet.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260520_Black_Glazed_Pottery_Censer_with_Three_Feet.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/20260520_Black_Glazed_Pottery_Censer_with_Three_Feet.jpg/1280px-20260520_Black_Glazed_Pottery_Censer_with_Three_Feet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20260520 Green Glazed Lotus-Shaped Pottery Washer.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260520_Green_Glazed_Lotus-Shaped_Pottery_Washer.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/20260520_Green_Glazed_Lotus-Shaped_Pottery_Washer.jpg/1280px-20260520_Green_Glazed_Lotus-Shaped_Pottery_Washer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Gongxian kiln porcelain",
+   "cands": [
+    {
+     "title": "File:Late Tang to Early Northern Song Porcelain Pillow, Gongxian Kiln, Henan, 9th-10th C.jpg",
+     "mime": "image/jpeg",
+     "w": 3888,
+     "h": 2592,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Late_Tang_to_Early_Northern_Song_Porcelain_Pillow,_Gongxian_Kiln,_Henan,_9th-10th_C.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Late_Tang_to_Early_Northern_Song_Porcelain_Pillow%2C_Gongxian_Kiln%2C_Henan%2C_9th-10th_C.jpg/1280px-Late_Tang_to_Early_Northern_Song_Porcelain_Pillow%2C_Gongxian_Kiln%2C_Henan%2C_9th-10th_C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "yangshao_village": [
+  {
+   "q": "Yangshao village site",
+   "cands": [
+    {
+     "title": "File:Photo of Johann Andersson, Who First Excavated the Yangshao Culture at Yangshao Village in 1921.jpg",
+     "mime": "image/jpeg",
+     "w": 3456,
+     "h": 5184,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Johann_Andersson,_Who_First_Excavated_the_Yangshao_Culture_at_Yangshao_Village_in_1921.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Photo_of_Johann_Andersson%2C_Who_First_Excavated_the_Yangshao_Culture_at_Yangshao_Village_in_1921.jpg/1280px-Photo_of_Johann_Andersson%2C_Who_First_Excavated_the_Yangshao_Culture_at_Yangshao_Village_in_1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Culture Original Excavation Site- Yangshao & Longshan Strata.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Culture_Original_Excavation_Site-_Yangshao_%26_Longshan_Strata.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Yangshao_Culture_Original_Excavation_Site-_Yangshao_%26_Longshan_Strata.jpg/1280px-Yangshao_Culture_Original_Excavation_Site-_Yangshao_%26_Longshan_Strata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Culture Original Excavation Site- Building Foundation 2.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Culture_Original_Excavation_Site-_Building_Foundation_2.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Yangshao_Culture_Original_Excavation_Site-_Building_Foundation_2.jpg/1280px-Yangshao_Culture_Original_Excavation_Site-_Building_Foundation_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Village.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Village.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Yangshao_Village.jpg/1280px-Yangshao_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Village Cave Houses.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Village_Cave_Houses.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yangshao_Village_Cave_Houses.jpg/1280px-Yangshao_Village_Cave_Houses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Village Cave House.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Village_Cave_House.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Yangshao_Village_Cave_House.jpg/1280px-Yangshao_Village_Cave_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Village Cave Home.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Village_Cave_Home.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Yangshao_Village_Cave_Home.jpg/1280px-Yangshao_Village_Cave_Home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Village Diorama.jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Village_Diorama.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Yangshao_Village_Diorama.jpg/1280px-Yangshao_Village_Diorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Yangshao culture site Mianchi",
+   "cands": []
+  }
+ ],
+ "miaodigou": [
+  {
+   "q": "Miaodigou",
+   "cands": [
+    {
+     "title": "File:Miaodigou urn,Yangshao culture.jpg",
+     "mime": "image/jpeg",
+     "w": 310,
+     "h": 390,
+     "license": "CC0",
+     "artist": "Ismoon (talk) 22:12, 16 April 2012 (UTC)",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Miaodigou_urn,Yangshao_culture.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Miaodigou_urn%2CYangshao_culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Neolithic painted pottery basin, Yangshao Culture, Miaodigou type, Henan, 1956.jpg",
+     "mime": "image/jpeg",
+     "w": 1387,
+     "h": 958,
+     "license": "CC BY-SA 4.0",
+     "artist": "Prof. Gary Lee Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Neolithic_painted_pottery_basin,_Yangshao_Culture,_Miaodigou_type,_Henan,_1956.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Neolithic_painted_pottery_basin%2C_Yangshao_Culture%2C_Miaodigou_type%2C_Henan%2C_1956.jpg/1280px-Neolithic_painted_pottery_basin%2C_Yangshao_Culture%2C_Miaodigou_type%2C_Henan%2C_1956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangshao Miaodigou ca. 4000 BC Shanxi Prov Museum, Taiyuan.JPG",
+     "mime": "image/jpeg",
+     "w": 1343,
+     "h": 958,
+     "license": "CC BY-SA 4.0",
+     "artist": "Prof. Gary Lee Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangshao_Miaodigou_ca._4000_BC_Shanxi_Prov_Museum,_Taiyuan.JPG",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Yangshao_Miaodigou_ca._4000_BC_Shanxi_Prov_Museum%2C_Taiyuan.JPG/1280px-Yangshao_Miaodigou_ca._4000_BC_Shanxi_Prov_Museum%2C_Taiyuan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Miaodigou Culture Painted Pottery Mace Head (10094215365).jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Miaodigou_Culture_Painted_Pottery_Mace_Head_(10094215365).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Miaodigou_Culture_Painted_Pottery_Mace_Head_%2810094215365%29.jpg/1280px-Miaodigou_Culture_Painted_Pottery_Mace_Head_%2810094215365%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Openwork Design ―Neolithic Period, Miaodigou Culture, 4,000-3,000 BCE.jpg",
+     "mime": "image/jpeg",
+     "w": 1701,
+     "h": 1715,
+     "license": "CC BY-SA 2.0",
+     "artist": "anokarina",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Openwork_Design_%E2%80%95Neolithic_Period,_Miaodigou_Culture,_4,000-3,000_BCE.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Openwork_Design_%E2%80%95Neolithic_Period%2C_Miaodigou_Culture%2C_4%2C000-3%2C000_BCE.jpg/1280px-Openwork_Design_%E2%80%95Neolithic_Period%2C_Miaodigou_Culture%2C_4%2C000-3%2C000_BCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20251026 Painted Pottery Bowl from Miaodigou.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20251026_Painted_Pottery_Bowl_from_Miaodigou.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20251026_Painted_Pottery_Bowl_from_Miaodigou.jpg/1280px-20251026_Painted_Pottery_Bowl_from_Miaodigou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Pots from the Yangshao Culture (3900-3600 BC), Miaodigou site, Sanmenxia, Henan.jpg",
+     "mime": "image/jpeg",
+     "w": 2830,
+     "h": 1233,
+     "license": "CC0",
+     "artist": "Furius",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Pots_from_the_Yangshao_Culture_(3900-3600_BC),_Miaodigou_site,_Sanmenxia,_Henan.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pots_from_the_Yangshao_Culture_%283900-3600_BC%29%2C_Miaodigou_site%2C_Sanmenxia%2C_Henan.jpg/1280px-Pots_from_the_Yangshao_Culture_%283900-3600_BC%29%2C_Miaodigou_site%2C_Sanmenxia%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Pottery from the Yangshao Culture (3900-3600 BC), Miaodigou site, Sanmenxia, Henan.jpg",
+     "mime": "image/jpeg",
+     "w": 5121,
+     "h": 2361,
+     "license": "CC0",
+     "artist": "Furius",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Pottery_from_the_Yangshao_Culture_(3900-3600_BC),_Miaodigou_site,_Sanmenxia,_Henan.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Pottery_from_the_Yangshao_Culture_%283900-3600_BC%29%2C_Miaodigou_site%2C_Sanmenxia%2C_Henan.jpg/1280px-Pottery_from_the_Yangshao_Culture_%283900-3600_BC%29%2C_Miaodigou_site%2C_Sanmenxia%2C_Henan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "duling_fangding": [
+  {
+   "q": "Duling fangding",
+   "cands": [
+    {
+     "title": "File:Early Shang Bronze Ding.jpg",
+     "mime": "image/jpeg",
+     "w": 4752,
+     "h": 3168,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Early_Shang_Bronze_Ding.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Early_Shang_Bronze_Ding.jpg/1280px-Early_Shang_Bronze_Ding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Shang Bronze Ding (9830276023).jpg",
+     "mime": "image/jpeg",
+     "w": 5184,
+     "h": 3456,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Bronze_Ding_(9830276023).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shang_Bronze_Ding_%289830276023%29.jpg/1280px-Shang_Bronze_Ding_%289830276023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Shang Bronze Ding (9830219606).jpg",
+     "mime": "image/jpeg",
+     "w": 3456,
+     "h": 5184,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Bronze_Ding_(9830219606).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Shang_Bronze_Ding_%289830219606%29.jpg/1280px-Shang_Bronze_Ding_%289830219606%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Shang Bronze Ding (9830203045).jpg",
+     "mime": "image/jpeg",
+     "w": 3456,
+     "h": 5184,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Bronze_Ding_(9830203045).jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Shang_Bronze_Ding_%289830203045%29.jpg/1280px-Shang_Bronze_Ding_%289830203045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Shang bronze ding, Zhengzhou (9848957874).jpg",
+     "mime": "image/jpeg",
+     "w": 640,
+     "h": 480,
+     "license": "CC0",
+     "artist": "Gary Todd from Xinzheng, China",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_bronze_ding,_Zhengzhou_(9848957874).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Shang_bronze_ding%2C_Zhengzhou_%289848957874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20260408 Bronze Ding with Animal Mask Motif.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260408_Bronze_Ding_with_Animal_Mask_Motif.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/20260408_Bronze_Ding_with_Animal_Mask_Motif.jpg/1280px-20260408_Bronze_Ding_with_Animal_Mask_Motif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20260520 Nipple-Nailed Square Ding with Beast Face Patterns 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260520_Nipple-Nailed_Square_Ding_with_Beast_Face_Patterns_02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/da/20260520_Nipple-Nailed_Square_Ding_with_Beast_Face_Patterns_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20260520 Nipple-Nailed Square Ding with Beast Face Patterns 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20260520_Nipple-Nailed_Square_Ding_with_Beast_Face_Patterns_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/20260520_Nipple-Nailed_Square_Ding_with_Beast_Face_Patterns_01.jpg/1280px-20260520_Nipple-Nailed_Square_Ding_with_Beast_Face_Patterns_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Du Ling ding Zhengzhou",
+   "cands": [
+    {
+     "title": "File:Guidelines for Transcription and Transliteration of the Syllable System of Chinese to Georgian.pdf",
+     "mime": "application/pdf",
+     "w": 1239,
+     "h": 1752,
+     "license": "Public domain",
+     "artist": "Government of Georgia, State Department of National Language",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Guidelines_for_Transcription_and_Transliteration_of_the_Syllable_System_of_Chinese_to_Georgian.pdf",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Guidelines_for_Transcription_and_Transliteration_of_the_Syllable_System_of_Chinese_to_Georgian.pdf/page1-960px-Guidelines_for_Transcription_and_Transliteration_of_the_Syllable_System_of_Chinese_to_Georgian.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "zhengzhou_shangcheng": [
+  {
+   "q": "Zhengzhou Shang city",
+   "cands": [
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Shang_Dynasty_City_Wall%2C_Zhengzhou_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Shang_Dynasty_City_Wall%2C_Zhengzhou_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 03.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Shang_Dynasty_City_Wall%2C_Zhengzhou_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 04.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_04.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Shang_Dynasty_City_Wall%2C_Zhengzhou_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 05.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_05.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Shang_Dynasty_City_Wall%2C_Zhengzhou_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20240817 Zhengzhou Shang City Site 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240817_Zhengzhou_Shang_City_Site_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/20240817_Zhengzhou_Shang_City_Site_01.jpg/1280px-20240817_Zhengzhou_Shang_City_Site_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240817 Zhengzhou Shang City Site 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240817_Zhengzhou_Shang_City_Site_02.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/20240817_Zhengzhou_Shang_City_Site_02.jpg/1280px-20240817_Zhengzhou_Shang_City_Site_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20240920 Remains of Zhengzhou City Wall 04.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20240920_Remains_of_Zhengzhou_City_Wall_04.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/20240920_Remains_of_Zhengzhou_City_Wall_04.jpg/1280px-20240920_Remains_of_Zhengzhou_City_Wall_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  },
+  {
+   "q": "Shang city wall Zhengzhou",
+   "cands": [
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Shang_Dynasty_City_Wall%2C_Zhengzhou_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Shang_Dynasty_City_Wall%2C_Zhengzhou_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 03.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Shang_Dynasty_City_Wall%2C_Zhengzhou_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 04.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_04.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Shang_Dynasty_City_Wall%2C_Zhengzhou_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 06.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_06.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Shang_Dynasty_City_Wall%2C_Zhengzhou_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 05.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_05.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Shang_Dynasty_City_Wall%2C_Zhengzhou_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 07.jpg",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 960,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_07.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Shang_Dynasty_City_Wall%2C_Zhengzhou_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Shang Dynasty City Wall, Zhengzhou 10.jpg",
+     "mime": "image/jpeg",
+     "w": 1600,
+     "h": 1200,
+     "license": "CC0",
+     "artist": "Gary Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Shang_Dynasty_City_Wall,_Zhengzhou_10.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Shang_Dynasty_City_Wall%2C_Zhengzhou_10.jpg/1280px-Shang_Dynasty_City_Wall%2C_Zhengzhou_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ],
+ "xishuipo": [
+  {
+   "q": "Xishuipo",
+   "cands": [
+    {
+     "title": "File:Human Burial and shell mosaics.National Museum, Beijing .JPG",
+     "mime": "image/jpeg",
+     "w": 1280,
+     "h": 854,
+     "license": "CC BY-SA 4.0",
+     "artist": "Prof. Gary Lee Todd",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Human_Burial_and_shell_mosaics.National_Museum,_Beijing_.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Human_Burial_and_shell_mosaics.National_Museum%2C_Beijing_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ]
+  },
+  {
+   "q": "Puyang dragon clam",
+   "cands": []
+  }
+ ],
+ "dahecun": [
+  {
+   "q": "Dahe village site Zhengzhou",
+   "cands": []
+  }
+ ],
+ "wangchenggang": [
+  {
+   "q": "Wangchenggang",
+   "cands": [
+    {
+     "title": "File:Yangcheng Lake scenery.JPG",
+     "mime": "image/jpeg",
+     "w": 2048,
+     "h": 1536,
+     "license": "CC BY-SA 3.0",
+     "artist": "Makecat",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangcheng_Lake_scenery.JPG",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Yangcheng_Lake_scenery.JPG/1280px-Yangcheng_Lake_scenery.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:Yangcheng Lake 20140831 085624.jpg",
+     "mime": "image/jpeg",
+     "w": 4096,
+     "h": 2304,
+     "license": "CC BY-SA 4.0",
+     "artist": "Qa003qa003",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Yangcheng_Lake_20140831_085624.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Yangcheng_Lake_20140831_085624.jpg/1280px-Yangcheng_Lake_20140831_085624.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241018 Grey Pottery Ding with Net Design, Wangchenggang Site 02.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241018_Grey_Pottery_Ding_with_Net_Design,_Wangchenggang_Site_02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/20241018_Grey_Pottery_Ding_with_Net_Design%2C_Wangchenggang_Site_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:20241018 Grey Pottery Ding with Net Design, Wangchenggang Site 01.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241018_Grey_Pottery_Ding_with_Net_Design,_Wangchenggang_Site_01.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/20241018_Grey_Pottery_Ding_with_Net_Design%2C_Wangchenggang_Site_01.jpg/1280px-20241018_Grey_Pottery_Ding_with_Net_Design%2C_Wangchenggang_Site_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241018 Red Pottery Cover, Wangchenggang Site.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241018_Red_Pottery_Cover,_Wangchenggang_Site.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/20241018_Red_Pottery_Cover%2C_Wangchenggang_Site.jpg/1280px-20241018_Red_Pottery_Cover%2C_Wangchenggang_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241018 Grey Pottery Urn with Basket Mark, Wangchenggang Site.jpg",
+     "mime": "image/jpeg",
+     "w": 1800,
+     "h": 1200,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241018_Grey_Pottery_Urn_with_Basket_Mark,_Wangchenggang_Site.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/20241018_Grey_Pottery_Urn_with_Basket_Mark%2C_Wangchenggang_Site.jpg/1280px-20241018_Grey_Pottery_Urn_with_Basket_Mark%2C_Wangchenggang_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+     "title": "File:20241018 Grey Pottery Urn with Cord Mark and Loop Handles, Wangchenggang Site.jpg",
+     "mime": "image/jpeg",
+     "w": 1200,
+     "h": 1800,
+     "license": "CC BY-SA 4.0",
+     "artist": "Windmemories",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:20241018_Grey_Pottery_Urn_with_Cord_Mark_and_Loop_Handles,_Wangchenggang_Site.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/20241018_Grey_Pottery_Urn_with_Cord_Mark_and_Loop_Handles%2C_Wangchenggang_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+     "title": "File:Dengfeng Wangchenggang Yizhi 20181218 085045.jpg",
+     "mime": "image/jpeg",
+     "w": 4160,
+     "h": 3120,
+     "license": "CC BY-SA 4.0",
+     "artist": "Zhangzhugang",
+     "descUrl": "https://commons.wikimedia.org/wiki/File:Dengfeng_Wangchenggang_Yizhi_20181218_085045.jpg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dengfeng_Wangchenggang_Yizhi_20181218_085045.jpg/1280px-Dengfeng_Wangchenggang_Yizhi_20181218_085045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ]
+  }
+ ]
+}

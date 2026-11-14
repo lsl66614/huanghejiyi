@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "distributed_reason",
+      "value": "用于在可信设备间同步黄河记忆的收藏、笔记与学习进度档案"
+    }
+  ]
+}

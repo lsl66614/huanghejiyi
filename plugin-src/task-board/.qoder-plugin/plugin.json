@@ -1,0 +1,7 @@
+{
+  "name": "task-board",
+  "version": "0.1.0",
+  "description": "本地任务与进度看板 MCP App：全屏看板页面 + 模型可读写的任务工具，数据只保存在本机。",
+  "author": { "name": "刘帅良" },
+  "keywords": ["qoder-plugin", "mcp-app", "task-board", "local", "planning"]
+}

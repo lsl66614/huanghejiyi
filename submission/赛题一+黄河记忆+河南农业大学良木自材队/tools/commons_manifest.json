@@ -1,0 +1,785 @@
+{
+ "note": "Wikimedia Commons 实拍图清单。file 为 Commons 文件名（不含 File: 前缀），name 为落盘文件名（不含 real_ 前缀与 .webp）。licence/author 记入 docs/IMAGES.md 台账。",
+ "source": "https://commons.wikimedia.org/wiki/Category:China_photographs_taken_on_2024-11-10",
+ "items": [
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_bowuguan",
+   "file": "20241110 Dahecun Site Museum.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址博物馆"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_caitao_bowl",
+   "file": "20241110 Painted Pottery Bowl, Dahecun Site, Yangshao Culture 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址仰韶文化彩陶钵"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_caitao_pen",
+   "file": "20241110 Painted Pottery Basin, Dahecun Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址仰韶文化彩陶盆"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_fangji",
+   "file": "20241110 House Foundations of Dahecun Site 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址房址F1基址"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_gu_bishou",
+   "file": "20241110 Bone Dagger, Dahecun Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址仰韶文化骨匕首"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_gui",
+   "file": "20241110 Pottery Gui, Dahecun Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址陶鬲"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_guijia",
+   "file": "20241110 Turtoise Shell, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化龟甲"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_guisheng",
+   "file": "20241110 Pottery He, Dahecun Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址陶盉"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_lujiao",
+   "file": "20241110 Antlers, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化鹿角"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_moguang_heitao",
+   "file": "20241110 Polished Black Pottery Cup, Dahecun Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址磨光黑陶杯"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_moguang_heitaobei",
+   "file": "Longshan Pottery Cup (10324955424).jpg",
+   "licence": "CC0",
+   "author": "Gary Todd from Xinzheng, China",
+   "desc": "龙山文化磨光黑陶杯（郑州博物馆藏，归属待核）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Longshan_Pottery_Cup_%2810324955424%29.jpg"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_shapan",
+   "file": "20241110 Diorama of Dahecun.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址博物馆沙盘"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_shi_fanglun",
+   "file": "20241110 Stone Spindle Wheels, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化石纺轮"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_shitao_ren",
+   "file": "20241110 Stone Knives, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化石刀"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_wenguan",
+   "file": "20241110 Pottery Burial Urn, Dahecun Site, Yangshao Culture 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址仰韶文化陶瓮棺"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_xingwen_taopian",
+   "file": "20241018 Painted Pottery Sherd with Sun Design.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址仰韶文化彩陶片（郑州博物馆藏，纹样待核）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/20241018_Painted_Pottery_Sherd_with_Sun_Design.jpg"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_yu_shi",
+   "file": "20241110 Jade Ornaments, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化玉饰"
+  },
+  {
+   "site": "dahecun",
+   "name": "real_dahecun_zhuan_cheng",
+   "file": "20241110 Pottery Spindle Wheels, Dahecun Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "大河村遗址龙山文化陶纺轮"
+  },
+  {
+   "site": "dongjing",
+   "name": "real_dongjing_bianhe_bayan",
+   "file": "20250531 Canal section near the Zhou Qiao.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "州桥及汴河遗址 河道与壁岸剖面",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20250531_Canal_section_near_the_Zhou_Qiao.jpg/1280px-20250531_Canal_section_near_the_Zhou_Qiao.jpg"
+  },
+  {
+   "site": "dongjing",
+   "name": "real_dongjing_zhouqiao_bihua",
+   "file": "20250531 Carving next to the Zhou Qiao.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "州桥汴河壁岸石刻（双龙壁）现场",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/20250531_Carving_next_to_the_Zhou_Qiao.jpg/1280px-20250531_Carving_next_to_the_Zhou_Qiao.jpg"
+  },
+  {
+   "site": "dongzhou_wangcheng",
+   "name": "real_dzw_chemakeng",
+   "file": "20241215 Chariot Pit of Luoyang Wangcheng 04.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "洛阳东周王城遗址 天子驾六博物馆 车马坑现场",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/20241215_Chariot_Pit_of_Luoyang_Wangcheng_04.jpg/1280px-20241215_Chariot_Pit_of_Luoyang_Wangcheng_04.jpg"
+  },
+  {
+   "site": "dongzhou_wangcheng",
+   "name": "real_dzw_tianzi_jialiu",
+   "file": "Eastern Zhou Royal Chariot Pit, Luoyang 01.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "天子驾六车马坑（洛阳东周王城）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Eastern_Zhou_Royal_Chariot_Pit%2C_Luoyang_01.jpg/1280px-Eastern_Zhou_Royal_Chariot_Pit%2C_Luoyang_01.jpg"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_dashigu_jar",
+   "file": "20241110 Pottery Jar, Dashigu Site, Erlitou Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "偃师大师姑二里头文化陶罐"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_li",
+   "file": "20241110 Pottery Li, Dahecun Site, Erlitou Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "二里头文化陶鬲"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_lvsongshi_long",
+   "file": "绿松石龙形器及铜铃, 2024-06-23.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Siyuwj",
+   "desc": "二里头绿松石龙形器及铜铃",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/%E7%BB%BF%E6%9D%BE%E7%9F%B3%E9%BE%99%E5%BD%A2%E5%99%A8%E5%8F%8A%E9%93%9C%E9%93%83%2C_2024-06-23.jpg/1280px-%E7%BB%BF%E6%9D%BE%E7%9F%B3%E9%BE%99%E5%BD%A2%E5%99%A8%E5%8F%8A%E9%93%9C%E9%93%83%2C_2024-06-23.jpg"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_rudingwen_tongjue",
+   "file": "20250529 Bronze jue with nipples in the Erlitou Site Museum of the Xia Capital.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "乳钉纹铜爵·二里头夏都遗址博物馆藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/20250529_Bronze_jue_with_nipples_in_the_Erlitou_Site_Museum_of_the_Xia_Capital.jpg/1280px-20250529_Bronze_jue_with_nipples_in_the_Erlitou_Site_Museum_of_the_Xia_Capital.jpg"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_tongpaishi",
+   "file": "Turquoise plaques, beast-mask design, Erlitou Culture, Erlitou site, Yanshi, Henan.jpg",
+   "licence": "CC0",
+   "author": "(见 Commons 页面)",
+   "desc": "镶嵌绿松石兽面纹铜牌饰·二里头遗址出土",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Turquoise_plaques%2C_beast-mask_design%2C_Erlitou_Culture%2C_Erlitou_site%2C_Yanshi%2C_Henan.jpg/1280px-Turquoise_plaques%2C_beast-mask_design%2C_Erlitou_Culture%2C_Erlitou_site%2C_Yanshi%2C_Henan.jpg"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_yaogu_zun",
+   "file": "20241110 Proto-Porcelain Zun, Shang Dynasty.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "商代原始瓷尊"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_zeng",
+   "file": "20241110 Pottery Zeng, Dahecun Site, Erlitou Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "二里头文化陶甑"
+  },
+  {
+   "site": "erlitou",
+   "name": "real_erlitou_zun",
+   "file": "20241110 Pottery Zun, Shang Dynasty.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "商代陶尊"
+  },
+  {
+   "site": "gongxian_yao",
+   "name": "real_gongyi_sancai_camel",
+   "file": "Tang Sancai Glazed Porcelain Camel (10233931985).jpg",
+   "licence": "CC0",
+   "author": "Gary Todd from Xinzheng, China",
+   "desc": "唐三彩釉陶骆驼俑（洛阳博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tang_Sancai_Glazed_Porcelain_Camel_%2810233931985%29.jpg/1280px-Tang_Sancai_Glazed_Porcelain_Camel_%2810233931985%29.jpg"
+  },
+  {
+   "site": "gongxian_yao",
+   "name": "real_gongyi_sancai_horse",
+   "file": "Tang Sancai Glazed Porcelain Horse (10233867724).jpg",
+   "licence": "CC0",
+   "author": "Gary Todd from Xinzheng, China",
+   "desc": "唐三彩釉陶马俑（洛阳博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tang_Sancai_Glazed_Porcelain_Horse_%2810233867724%29.jpg/1280px-Tang_Sancai_Glazed_Porcelain_Horse_%2810233867724%29.jpg"
+  },
+  {
+   "site": "guo_group_cemetery",
+   "name": "real_guo_guoji_ding",
+   "file": "虢季墓列鼎（之一） 20160924.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "(见 Commons 页面)",
+   "desc": "虢季墓列鼎之一·上村岭虢国墓地出土·河南博物院藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/%E8%99%A2%E5%AD%A3%E5%A2%93%E5%88%97%E9%BC%8E%EF%BC%88%E4%B9%8B%E4%B8%80%EF%BC%89_20160924.jpg/1280px-%E8%99%A2%E5%AD%A3%E5%A2%93%E5%88%97%E9%BC%8E%EF%BC%88%E4%B9%8B%E4%B8%80%EF%BC%89_20160924.jpg"
+  },
+  {
+   "site": "guo_group_cemetery",
+   "name": "real_guo_mudi",
+   "file": "Guo State Tomb 1.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "上村岭虢国墓地 一号墓展示",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Guo_State_Tomb_1.jpg/1280px-Guo_State_Tomb_1.jpg"
+  },
+  {
+   "site": "guo_group_cemetery",
+   "name": "real_guo_yubing_tiejian",
+   "file": "Western Zhou Iron Sword with Jade Handle.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "玉柄铁剑·三门峡虢季墓M2001出土·河南博物院藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Western_Zhou_Iron_Sword_with_Jade_Handle.jpg/1280px-Western_Zhou_Iron_Sword_with_Jade_Handle.jpg"
+  },
+  {
+   "site": "guo_group_cemetery",
+   "name": "real_guo_zupeiyu",
+   "file": "20260520 Jade Pendant Formed by Seven Huang and Gold Belt Ornaments.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "虢季墓M2001 七璜联珠组玉佩·河南博物院藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/20260520_Jade_Pendant_Formed_by_Seven_Huang_and_Gold_Belt_Ornaments.jpg/1280px-20260520_Jade_Pendant_Formed_by_Seven_Huang_and_Gold_Belt_Ornaments.jpg"
+  },
+  {
+   "site": "han_tongguan",
+   "name": "real_hangu_pass_guancheng_04",
+   "file": "20260503 Site of Hangu Pass in Xin'an 04.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉函谷关关城夯土与条石基址（新安）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/20260503_Site_of_Hangu_Pass_in_Xin%27an_04.jpg"
+  },
+  {
+   "site": "han_tongguan",
+   "name": "real_hangu_pass_guancheng_07",
+   "file": "20260503 Site of Hangu Pass in Xin'an 07.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉函谷关关城夯土与条石基址（新安）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/20260503_Site_of_Hangu_Pass_in_Xin%27an_07.jpg/1280px-20260503_Site_of_Hangu_Pass_in_Xin%27an_07.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng_taiji",
+   "name": "real_hw_gongcheng_taiji",
+   "file": "20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Palace City 04.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉魏洛阳故城宫城（太极殿区）夯土台基",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Palace_City_04.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Palace_City_04.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng",
+   "name": "real_hw_mangshan_yuanjing",
+   "file": "20240815 Mount Mang from the Site of Luoyang City from Han to Wei Dynasty.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "自汉魏洛阳故城远眺邙山（东周王陵大冢群所在）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/20240815_Mount_Mang_from_the_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty.jpg/1280px-20240815_Mount_Mang_from_the_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng_taiji",
+   "name": "real_hw_piyong_taixue",
+   "file": "20240815 Site of Luoyang City from Han to Wei Dynasty - Site of Pi Yong.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉魏洛阳故城辟雍（太学）遗址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_Pi_Yong.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_Pi_Yong.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng",
+   "name": "real_hw_tongtuo_yudao",
+   "file": "20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Tongtuo Street.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉魏洛阳故城铜驼街御道遗址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/54/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Tongtuo_Street.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng",
+   "name": "real_hw_yongning_nisu",
+   "file": "Clay Head of Bhikkhu Excavated at Yongning Temple.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Baomi",
+   "desc": "永宁寺塔基出土泥塑比丘头·洛阳龙门博物馆",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Clay_Head_of_Bhikkhu_Excavated_at_Yongning_Temple.jpg"
+  },
+  {
+   "site": "jingjiugong",
+   "name": "real_jingjiugong_beicheng",
+   "file": "20250531 Site of the north wall of the imperial city.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "北宋东京城内城北墙基址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/20250531_Site_of_the_north_wall_of_the_imperial_city.jpg/1280px-20250531_Site_of_the_north_wall_of_the_imperial_city.jpg"
+  },
+  {
+   "site": "jingjiugong",
+   "name": "real_jingjiugong_daqingdian",
+   "file": "20250531 Site of the Daqing Hall.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "北宋东京城宫城大庆殿基址（龙亭公园）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/20250531_Site_of_the_Daqing_Hall.jpg/1280px-20250531_Site_of_the_Daqing_Hall.jpg"
+  },
+  {
+   "site": "jingjiugong",
+   "name": "real_jingjiugong_xicheng",
+   "file": "20250622 Site of the West Wall of the Imperial Palace.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "北宋东京宫城西侧城墙基址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/20250622_Site_of_the_West_Wall_of_the_Imperial_Palace.jpg/1280px-20250622_Site_of_the_West_Wall_of_the_Imperial_Palace.jpg"
+  },
+  {
+   "site": "kaita",
+   "name": "real_kaita_liuli_zhuan",
+   "file": "开封铁塔琉璃瓦.jpg",
+   "licence": "CC BY-SA 3.0",
+   "author": "Gisling",
+   "desc": "开封铁塔琉璃瓦/釉砖构件",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/58/%E5%BC%80%E5%B0%81%E9%93%81%E5%A1%94%E7%90%89%E7%92%83%E7%93%A6.jpg"
+  },
+  {
+   "site": "kaita",
+   "name": "real_kaita_tatie",
+   "file": "20250622 Iron Pagoda Park 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "开封铁塔（祐国寺塔）塔身外景",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/20250622_Iron_Pagoda_Park_01.jpg/1280px-20250622_Iron_Pagoda_Park_01.jpg"
+  },
+  {
+   "site": "qiji",
+   "name": "real_mazhuang_shimao",
+   "file": "20241110 Stone Spear, Mazhuang Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "马庄遗址龙山文化石矛"
+  },
+  {
+   "site": "qiji",
+   "name": "real_mazhuang_shuanger_pen",
+   "file": "20241110 Pottery Basin with Two Handles, Mazhuang Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "马庄遗址龙山文化双耳盆"
+  },
+  {
+   "site": "qiji",
+   "name": "real_mazhuang_taoguan",
+   "file": "20241110 Pottery Jar, Mazhuang Site, Longshan Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "马庄遗址龙山文化陶罐"
+  },
+  {
+   "site": "mianchi_yangshao",
+   "name": "real_mianchi_huikengceng",
+   "file": "Yangshao Culture Original Excavation Site- Ash Layer.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "仰韶村遗址原地灰堆/文化层",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Yangshao_Culture_Original_Excavation_Site-_Ash_Layer.jpg/1280px-Yangshao_Culture_Original_Excavation_Site-_Ash_Layer.jpg"
+  },
+  {
+   "site": "mianchi_yangshao",
+   "name": "real_mianchi_taopian",
+   "file": "Yangshao Culture Original Excavation Site- Potsherd 1.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "仰韶村遗址原地出土陶片",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Yangshao_Culture_Original_Excavation_Site-_Potsherd_1.jpg/1280px-Yangshao_Culture_Original_Excavation_Site-_Potsherd_1.jpg"
+  },
+  {
+   "site": "mianchi_yangshao",
+   "name": "real_mianchi_yangshaocun",
+   "file": "Yangshao Culture Original Site.jpg",
+   "licence": "CC0",
+   "author": "Gary Todd",
+   "desc": "仰韶村遗址原地",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Yangshao_Culture_Original_Site.jpg/1280px-Yangshao_Culture_Original_Site.jpg"
+  },
+  {
+   "site": "miaodigou",
+   "name": "real_miaodigou_caitao_pen",
+   "file": "20251026 Painted Pottery Basin from Miaodigou.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "庙底沟遗址彩陶盆（中国国家博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/20251026_Painted_Pottery_Basin_from_Miaodigou.jpg/1280px-20251026_Painted_Pottery_Basin_from_Miaodigou.jpg"
+  },
+  {
+   "site": "miaodigou",
+   "name": "real_miaodigou_huabanwen",
+   "file": "20260408 Petal-Patterned Painted Pottery Bowl.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "庙底沟类型花瓣纹彩陶钵（河南博物院藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/20260408_Petal-Patterned_Painted_Pottery_Bowl.jpg"
+  },
+  {
+   "site": "miaodigou",
+   "name": "real_miaodigou_zenglu",
+   "file": "20251026 Pottery Cauldron and Stove from Miaodigou.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "庙底沟遗址陶釜与灶（中国国家博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/59/20251026_Pottery_Cauldron_and_Stove_from_Miaodigou.jpg"
+  },
+  {
+   "site": "qifeng_gucheng",
+   "name": "real_qifeng_gucheng",
+   "file": "20250615 Site of Ancient Qifeng 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "启封故城遗址（国保碑与城墙）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/20250615_Site_of_Ancient_Qifeng_01.jpg/1280px-20250615_Site_of_Ancient_Qifeng_01.jpg"
+  },
+  {
+   "site": "qifeng_gucheng",
+   "name": "real_qifeng_gucheng_02",
+   "file": "20250615 Site of Ancient Qifeng 02.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "启封故城遗址另一视角",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/20250615_Site_of_Ancient_Qifeng_02.jpg/1280px-20250615_Site_of_Ancient_Qifeng_02.jpg"
+  },
+  {
+   "site": "qingtai",
+   "name": "real_qingtai_caitao_bowl",
+   "file": "20241110 Painted Pottery Bowl, Qingtai Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "青台遗址仰韶文化彩陶钵"
+  },
+  {
+   "site": "qingtai",
+   "name": "real_qingtai_ding",
+   "file": "20241110 Pot Shaped Ding, Qingtai Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "青台遗址仰韶文化釜形鼎"
+  },
+  {
+   "site": "qingtai",
+   "name": "real_qingtai_jar",
+   "file": "20241110 Pottery Jar, Qingtai Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "青台遗址仰韶文化陶罐"
+  },
+  {
+   "site": "song_ling",
+   "name": "real_songling_yongzhao_lingtai",
+   "file": "20250614 Yongzhao Mausoleum 07.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "永昭陵陵台",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/20250614_Yongzhao_Mausoleum_07.jpg/1280px-20250614_Yongzhao_Mausoleum_07.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng_taiji",
+   "name": "real_taiji_gongcheng",
+   "file": "20240815 Site of Luoyang City from Han to Wei Dynasty - Site of the Palace City 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "汉魏洛阳城宫城区航拍（太极殿候选，待核）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Palace_City_01.jpg/1280px-20240815_Site_of_Luoyang_City_from_Han_to_Wei_Dynasty_-_Site_of_the_Palace_City_01.jpg"
+  },
+  {
+   "site": "hanwei_luoyangcheng_taiji",
+   "name": "real_taiji_xiping_shijing",
+   "file": "熹平石经·周易残石-东汉熹平四年（175）-蔡邕等书-西安碑林第三室 2023-09-29 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Kcx36",
+   "desc": "汉熹平石经周易残石（太学壁经残石）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%E7%86%B9%E5%B9%B3%E7%9F%B3%E7%BB%8F%C2%B7%E5%91%A8%E6%98%93%E6%AE%8B%E7%9F%B3-%E4%B8%9C%E6%B1%89%E7%86%B9%E5%B9%B3%E5%9B%9B%E5%B9%B4%EF%BC%88175%EF%BC%89-%E8%94%A1%E9%82%95%E7%AD%89%E4%B9%A6-%E8%A5%BF%E5%AE%89%E7%A2%91%E6%9E%97%E7%AC%AC%E4%B8%89%E5%AE%A4_2023-09-29_01.jpg/1280px-%E7%86%B9%E5%B9%B3%E7%9F%B3%E7%BB%8F%C2%B7%E5%91%A8%E6%98%93%E6%AE%8B%E7%9F%B3-%E4%B8%9C%E6%B1%89%E7%86%B9%E5%B9%B3%E5%9B%9B%E5%B9%B4%EF%BC%88175%EF%BC%89-%E8%94%A1%E9%82%95%E7%AD%89%E4%B9%A6-%E8%A5%BF%E5%AE%89%E7%A2%91%E6%9E%97%E7%AC%AC%E4%B8%89%E5%AE%A4_2023-09-29_01.jpg"
+  },
+  {
+   "site": "han_tongguan",
+   "name": "real_tongguan_gucheng",
+   "file": "202309 Tongguan Ancient City Overview.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "MNXANL",
+   "desc": "潼关古城全景（待核：是否故城遗址本体）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/202309_Tongguan_Ancient_City_Overview.jpg/1280px-202309_Tongguan_Ancient_City_Overview.jpg"
+  },
+  {
+   "site": "han_tongguan",
+   "name": "real_tongguan_hanguancheng",
+   "file": "202309 Ruins of Tongguan City (Han).jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "MNXANL",
+   "desc": "汉潼关故城遗址现场",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/202309_Ruins_of_Tongguan_City_%28Han%29.jpg/1280px-202309_Ruins_of_Tongguan_City_%28Han%29.jpg"
+  },
+  {
+   "site": "xiaoshuangqiao",
+   "name": "real_xiaoshuangqiao_huitao_jue",
+   "file": "20241018 Grey Pottery Jue, Xiaoshuangqiao Site.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "小双桥遗址出土灰陶爵（郑州博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/20241018_Grey_Pottery_Jue%2C_Xiaoshuangqiao_Site.jpg/1280px-20241018_Grey_Pottery_Jue%2C_Xiaoshuangqiao_Site.jpg"
+  },
+  {
+   "site": "xiaoshuangqiao",
+   "name": "real_xiaoshuangqiao_site",
+   "file": "20251207 Xiaoshuangqiao Site 02.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "小双桥遗址现场（含国保碑）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/20251207_Xiaoshuangqiao_Site_02.jpg/1280px-20251207_Xiaoshuangqiao_Site_02.jpg"
+  },
+  {
+   "site": "xingyang_gucheng",
+   "name": "real_xingyang_gucheng",
+   "file": "20240929 Site of Ancient Xingyang 01.jpg",
+   "licence": "CC0",
+   "author": "Windmemories",
+   "desc": "荥阳故城遗址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/20240929_Site_of_Ancient_Xingyang_01.jpg/1280px-20240929_Site_of_Ancient_Xingyang_01.jpg"
+  },
+  {
+   "site": "xingyang_gucheng",
+   "name": "real_xingyang_gucheng_03",
+   "file": "20240929 Site of Ancient Xingyang 03.jpg",
+   "licence": "CC0",
+   "author": "Windmemories",
+   "desc": "荥阳故城遗址另一视角",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/20240929_Site_of_Ancient_Xingyang_03.jpg/1280px-20240929_Site_of_Ancient_Xingyang_03.jpg"
+  },
+  {
+   "site": "xingyang_gucheng",
+   "name": "real_xingyang_hanwangcheng",
+   "file": "20240906 Site of the Fortresses of Liu Bang and Xiang Yu 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "荥阳故城（汉王城·霸王城）国保标志碑与城墙",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/20240906_Site_of_the_Fortresses_of_Liu_Bang_and_Xiang_Yu_01.jpg/1280px-20240906_Site_of_the_Fortresses_of_Liu_Bang_and_Xiang_Yu_01.jpg"
+  },
+  {
+   "site": "xingyang_gucheng",
+   "name": "real_xingyang_liutie_luji",
+   "file": "20260322 Site of the No. 1 Furnace of Guxing Iron Smelting Site.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "古荥冶铁遗址一号炉基（荥阳故城城内）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/20260322_Site_of_the_No._1_Furnace_of_Guxing_Iron_Smelting_Site.jpg/1280px-20260322_Site_of_the_No._1_Furnace_of_Guxing_Iron_Smelting_Site.jpg"
+  },
+  {
+   "site": "kaifeng_xian",
+   "name": "real_xishan_caitao_pen",
+   "file": "20241110 Painted Pottery Bowl, Xishan Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "开封西山遗址仰韶文化彩陶盆"
+  },
+  {
+   "site": "kaifeng_xian",
+   "name": "real_xishan_tao_ding",
+   "file": "20241110 Pottery Ding, Xishan Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "开封西山遗址陶鼎"
+  },
+  {
+   "site": "kaifeng_xian",
+   "name": "real_xishan_tao_jar",
+   "file": "20241110 Pottery Jar, Xishan Site, Yangshao Culture 02.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "开封西山遗址陶罐"
+  },
+  {
+   "site": "kaifeng_xian",
+   "name": "real_xishan_xiaokou_ping",
+   "file": "20241110 Pottery Bottle with Small Mouth and Pointed Bottom, Xishan Site, Yangshao Culture.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "开封西山遗址小口尖底瓶"
+  },
+  {
+   "site": "xiaoshuangqiao",
+   "name": "real_xsq_tong_goujian",
+   "file": "20260408 Bronze Architecture Ornament with Animal-Mask Motif.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "小双桥遗址出土兽面纹青铜建筑构件·河南博物院藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/20260408_Bronze_Architecture_Ornament_with_Animal-Mask_Motif.jpg/1280px-20260408_Bronze_Architecture_Ornament_with_Animal-Mask_Motif.jpg"
+  },
+  {
+   "site": "yanshi_shangcheng",
+   "name": "real_yanshi_shangcheng_chiyuan",
+   "file": "偃师商城遗址-池苑基址.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Ma3r",
+   "desc": "偃师商城遗址 池苑基址",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%81%83%E5%B8%88%E5%95%86%E5%9F%8E%E9%81%97%E5%9D%80-%E6%B1%A0%E8%8B%91%E5%9F%BA%E5%9D%80.jpg/1280px-%E5%81%83%E5%B8%88%E5%95%86%E5%9F%8E%E9%81%97%E5%9D%80-%E6%B1%A0%E8%8B%91%E5%9F%BA%E5%9D%80.jpg"
+  },
+  {
+   "site": "yanshi_shangcheng",
+   "name": "real_yanshi_shangcheng_panshuidao",
+   "file": "偃师商城遗址-池苑基址-排水道.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Ma3r",
+   "desc": "偃师商城池苑基址石砌排水道",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%E5%81%83%E5%B8%88%E5%95%86%E5%9F%8E%E9%81%97%E5%9D%80-%E6%B1%A0%E8%8B%91%E5%9F%BA%E5%9D%80-%E6%8E%92%E6%B0%B4%E9%81%93.jpg/1280px-%E5%81%83%E5%B8%88%E5%95%86%E5%9F%8E%E9%81%97%E5%9D%80-%E6%B1%A0%E8%8B%91%E5%9F%BA%E5%9D%80-%E6%8E%92%E6%B0%B4%E9%81%93.jpg"
+  },
+  {
+   "site": "song_ling",
+   "name": "real_yongzhao_lingtai",
+   "file": "20230216 Yongzhao Mausoleum 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "永昭陵陵台与上宫遗址（宋仁宗陵，巩义）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/20230216_Yongzhao_Mausoleum_01.jpg/1280px-20230216_Yongzhao_Mausoleum_01.jpg"
+  },
+  {
+   "site": "song_ling",
+   "name": "real_yongzhao_shendao",
+   "file": "20230216 Yongzhao Mausoleum 02.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "永昭陵神道石像生（宋仁宗陵，巩义）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/20230216_Yongzhao_Mausoleum_02.jpg/1280px-20230216_Yongzhao_Mausoleum_02.jpg"
+  },
+  {
+   "site": "yangshao_village",
+   "name": "real_ys_xiaokou_jiandiping",
+   "file": "20241018 Red Pottery Bottle with Small Mouth and Pointed Bottom.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "仰韶文化小口尖底瓶（郑州博物馆藏青台遗址出土）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/35/20241018_Red_Pottery_Bottle_with_Small_Mouth_and_Pointed_Bottom.jpg"
+  },
+  {
+   "site": "jingjiugong",
+   "name": "real_zhouqiao_bianhe_boan",
+   "file": "20250531 Canal section near the Zhou Qiao.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "州桥遗址汴河河道剖面与石壁岸（开封）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20250531_Canal_section_near_the_Zhou_Qiao.jpg/1280px-20250531_Canal_section_near_the_Zhou_Qiao.jpg"
+  },
+  {
+   "site": "zhou_gucheng",
+   "name": "real_zhouqiao_jiemi",
+   "file": "20250531 Zhou Qiao.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "开封州桥遗址发掘现场全景（汴州—东京城摞城实证）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/20250531_Zhou_Qiao.jpg/1280px-20250531_Zhou_Qiao.jpg"
+  },
+  {
+   "site": "jingjiugong",
+   "name": "real_zhouqiao_shuanglongbi",
+   "file": "20250531 Carving next to the Zhou Qiao.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Yumeto",
+   "desc": "北宋州桥桥壁石雕（'双龙壁'，开封州桥遗址）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/ba/20250531_Carving_next_to_the_Zhou_Qiao.jpg"
+  },
+  {
+   "site": "zhengzhou_shangcheng",
+   "name": "real_zzsc_bogu",
+   "file": "20241018 Oracle Bones.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "郑州博物馆藏商代卜骨",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/20241018_Oracle_Bones.jpg/1280px-20241018_Oracle_Bones.jpg"
+  },
+  {
+   "site": "zhengzhou_shangcheng",
+   "name": "real_zzsc_niushou_zun",
+   "file": "20241018 Bronze Zun of Bull Head and Beast-Face Designs 01.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "郑州商城出土牛首兽面纹铜尊·郑州博物馆藏",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/20241018_Bronze_Zun_of_Bull_Head_and_Beast-Face_Designs_01.jpg/1280px-20241018_Bronze_Zun_of_Bull_Head_and_Beast-Face_Designs_01.jpg"
+  },
+  {
+   "site": "zhengzhou_shangcheng",
+   "name": "real_zzsc_yuanshi_ci_zun",
+   "file": "20241018 Proto-Celadon Zun.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Windmemories",
+   "desc": "郑州商城出土原始瓷尊（郑州博物馆藏）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/20241018_Proto-Celadon_Zun.jpg"
+  },
+  {
+   "site": "xizhucun_caozhong_m",
+   "name": "real_xizhucun_m1",
+   "file": "西朱村曹魏墓 M1 考古现场.jpg",
+   "licence": "CC BY-SA 4.0",
+   "author": "Ma3r",
+   "desc": "西朱村曹魏墓 M1 考古现场（洛阳）",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/%E8%A5%BF%E6%9C%B1%E6%9D%91%E6%9B%B9%E9%AD%8F%E5%A2%93_M1_%E8%80%83%E5%8F%A4%E7%8E%B0%E5%9C%BA.jpg/1280px-%E8%A5%BF%E6%9C%B1%E6%9D%91%E6%9B%B9%E9%AD%8F%E5%A2%93_M1_%E8%80%83%E5%8F%A4%E7%8E%B0%E5%9C%BA.jpg"
+  }
+ ]
+}

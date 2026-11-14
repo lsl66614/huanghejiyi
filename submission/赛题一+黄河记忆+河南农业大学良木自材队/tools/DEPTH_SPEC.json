@@ -1,0 +1,49 @@
+{
+  "_说明": "赛题一详情页『历史事件』与『文旅』两层的目标结构。events 由字符串改为对象数组，tourism 由字符串改为对象。",
+  "sections": {
+    "intro": {
+      "类型": "string",
+      "要求": "≥300 字。地理坐标与形制、规模与布局、文化内涵与学术意义、申遗/保护级别。写散文，不要条目罗列。",
+      "现状": "中位数 87 字，严重偏短"
+    },
+    "arch": {
+      "类型": "string",
+      "要求": "≥300 字。发掘史（何时、谁、几轮）、关键发现（地层/灰坑/墓葬/器物）、技术手段（探方/钻探/多旋翼/碳十四）与学术贡献。",
+      "现状": "中位数 101 字，严重偏短"
+    },
+    "events": {
+      "类型": "array",
+      "数量": "2-3 条；史前遗址（yangshao/longshan）可 1-2 条",
+      "元素": {
+        "year": "string，精确到年或朝代，如 '1959年'、'北宋元祐年间'、'清乾隆三十八年'",
+        "title": "string，≤30 字，事件名",
+        "summary": "string，60-150 字，摘要，常显",
+        "background": "string，120-300 字，事件发生前的背景",
+        "process": "string，120-300 字，经过/考古过程",
+        "impact": "string，120-300 字，影响与意义",
+        "figures": "array of string，0-5 位相关人物",
+        "furtherReading": "string，出处线索，可空字符串"
+      }
+    },
+    "poems": {
+      "类型": "array",
+      "要求": "保持现状（42/42 已全满），本次不改"
+    },
+    "tourism": {
+      "类型": "object",
+      "overview": "string，120-300 字，现状馆/保护对象/看点概览",
+      "guide": {
+        "hours": "string，开放时间，无则空字符串",
+        "tickets": "string，票务与预约，无则空字符串",
+        "address": "string，具体地址，无则空字符串"
+      },
+      "itinerary": "string，150-400 字，游览时长、推荐动线、交通方式、串联景点"
+    }
+  },
+  "硬约束": [
+    "只写能被公开权威来源佐证的内容；无法确认的字段留空字符串或空数组，禁止编造",
+    "保留原有 id/name/city/era/site_type/summary/tags/images/relics 不变",
+    "保留原有 intro/arch 的已有文字并在其基础上扩写，不要推翻重写",
+    "输出仍为 sites-src/<id>.json，顶层保留 source 字段（发布时由 validate_sites.py 剥离）"
+  ]
+}

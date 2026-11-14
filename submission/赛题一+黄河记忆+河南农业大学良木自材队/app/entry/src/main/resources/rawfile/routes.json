@@ -1,0 +1,107 @@
+{
+  "routes": [
+    {
+      "id": "yangshao_tao",
+      "title": "仰韶寻陶",
+      "subtitle": "从仰韶村到苏羊，看彩陶纹样怎样一村村走远",
+      "era": "yangshao",
+      "duration": "约 2 天",
+      "stops": [
+        { "site": "yangshao_village", "note": "1921 年第一次发掘，仰韶文化由此得名；先在这里建立「彩陶长什么样」的基准。" },
+        { "site": "miaodigou", "note": "庙底沟期的花瓣纹与弧线三角，是仰韶彩陶最盛的一段。" },
+        { "site": "mianchi_yangshao", "note": "窑址与聚落同处一地，能看到陶器是从哪个火膛里烧出来的。" },
+        { "site": "bancun", "note": "石斧、石刀与彩陶同出，把制陶放回耕作与日常。" },
+        { "site": "qingtai", "note": "郑州一侧的仰韶聚落，看同一文化走到东部边缘时的样子。" },
+        { "site": "suoyang", "note": "仰韶墓地收尾：最后看人被怎样安葬，一条线才落得下来。" }
+      ]
+    },
+    {
+      "id": "xiashang_duyi",
+      "title": "夏商都邑",
+      "subtitle": "从二里头到启封，追青铜礼制最初的三百年",
+      "era": "xiashang",
+      "duration": "约 2 天",
+      "stops": [
+        { "site": "erlitou", "note": "宫城居中、道路成网，中国最早的王都布局在这里定型。" },
+        { "site": "yanshi_shangcheng", "note": "商灭夏后在近旁另筑新城，两座都邑隔河相望。" },
+        { "site": "zhengzhou_shangcheng", "note": "城墙与青铜作坊同城，礼器从这里成批铸出。" },
+        { "site": "xiaoshuangqiao", "note": "商中期的祭祀遗存，补上都邑迁徙之间的空档。" },
+        { "site": "duling_fangding", "note": "杜岭方鼎的出土地，看青铜重器回到它被埋下的位置。" },
+        { "site": "qifeng_gucheng", "note": "向东的启封故城，看商代城邑传统如何在黄河南岸延续。" }
+      ]
+    },
+    {
+      "id": "zhou_li",
+      "title": "周礼与列国",
+      "subtitle": "天子驾六、王陵大冢与诸侯会盟，一套礼制落在地上",
+      "era": "zhou",
+      "duration": "约 2 天",
+      "stops": [
+        { "site": "dongzhou_wangcheng", "note": "天子驾六车马坑，用马匹数量把等级写在土里。" },
+        { "site": "shaogong_ling", "note": "东周王陵大冢群，看王室墓葬的规模与排列。" },
+        { "site": "guo_group_cemetery", "note": "上村岭虢国墓地，诸侯国的礼器组合第一次成组出现。" },
+        { "site": "kuo_state_city", "note": "郐国故城：小国的城垣比天子王城更能说明列国并立。" },
+        { "site": "qicheng", "note": "戚城遗址，卫国东部的会盟之地，礼制也是外交。" },
+        { "site": "zhou_gucheng", "note": "汴州故城压在最下层，看周代城邑如何被后世一层层沿用。" }
+      ]
+    },
+    {
+      "id": "hantang_chengque",
+      "title": "汉唐城阙",
+      "subtitle": "太极殿、曹魏墓与潼关，帝都的轴线向东收束",
+      "era": "hantang",
+      "duration": "约 3 天",
+      "stops": [
+        { "site": "hanwei_luoyangcheng", "note": "汉魏洛阳城郭城与宫城同址，先看整座城的骨架。" },
+        { "site": "hanwei_luoyangcheng_taiji", "note": "太极殿遗址：宫城正殿的位置，决定此后宫室制度的朝向。" },
+        { "site": "xizhucun_caozhong_m", "note": "西朱村曹魏墓，从墓葬看都城之外的等级秩序。" },
+        { "site": "yanshi", "note": "古偃师城聚落层，城与聚落的关系在这里最清楚。" },
+        { "site": "han_tongguan", "note": "潼关故城：关隘锁住东西通道，帝都才安全。" },
+        { "site": "xingyang_gucheng", "note": "荥阳故城，沿河而设的仓储与交通节点。" },
+        { "site": "huanghe_gendi", "note": "濮阳段明清堤防与古渡，收尾看人如何与水长期周旋。" }
+      ]
+    },
+    {
+      "id": "song_bianjing",
+      "title": "宋城汴京",
+      "subtitle": "州桥、宫城、铁塔与皇陵，一座城的四重边界",
+      "era": "song",
+      "duration": "约 2 天",
+      "stops": [
+        { "site": "dongjing", "note": "州桥与汴河河道，先看城是怎么靠水运长起来的。" },
+        { "site": "jingjiugong", "note": "宋东京宫城与内城，三重城垣的层级在这里叠合。" },
+        { "site": "kaita", "note": "开封铁塔：地面多次淤埋，塔仍立着，是城摞城的坐标。" },
+        { "site": "gongxian_yao", "note": "巩义窑址，看东京城日常用瓷从哪里来。" },
+        { "site": "song_ling", "note": "北宋皇陵，帝王的终点也排在同一个地理轴线上。" },
+        { "site": "tiejun_miao", "note": "铁枪庙（宋澶州故城层），把视线从都城移向北门锁钥。" }
+      ]
+    },
+    {
+      "id": "longshan_zhu",
+      "title": "龙山筑城",
+      "subtitle": "夯土城墙初起，聚落开始有了内外",
+      "era": "longshan",
+      "duration": "约 1 天",
+      "stops": [
+        { "site": "dahecun", "note": "大河村遗址，房基与彩陶同层，先看聚落怎样住。" },
+        { "site": "wangchenggang", "note": "王城岗夯土城垣，城墙把「我们」和「外面」分开。" },
+        { "site": "wanwang_wangwan", "note": "王湾遗址的层位序列，是判断龙山年代的一把尺。" },
+        { "site": "kaifeng_longshan", "note": "开封龙山聚落群，看同一时期东部的分布。" },
+        { "site": "qiji", "note": "尉氏邱集遗址收尾：城邑之外，仍有大量普通聚落。" }
+      ]
+    },
+    {
+      "id": "dahe_yu_cheng",
+      "title": "大河与城",
+      "subtitle": "堤防、渡口与因河而生的城，一条短而硬的线",
+      "era": "hantang",
+      "duration": "约 1 天",
+      "stops": [
+        { "site": "huanghe_gendi", "note": "濮阳段明清堤防与古渡，先看人怎样把河约束在堤外。" },
+        { "site": "huatigou", "note": "开封黄河河堤口遗址，决口留下的地层比文字更直接。" },
+        { "site": "xingyang_gucheng", "note": "荥阳故城临河设城，水运与仓储决定城址。" },
+        { "site": "zhou_gucheng", "note": "汴州故城压在最底下：河改道，城就一层层重来。" }
+      ]
+    }
+  ]
+}

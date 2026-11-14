@@ -1,0 +1,52 @@
+{
+  "id": "suoyang",
+  "name": "苏羊遗址（仰韶文化墓地）",
+  "city": "luoyang",
+  "era": "yangshao",
+  "site_type": "burial",
+  "summary": "洛阳宜阳县境内的仰韶文化大型聚落与墓地，文化序列自仰韶早期延续至龙山晚期，曾发现多座仰韶文化早期墓葬，入围全国十大考古新发现终评。",
+  "tags": ["仰韶早期墓地", "河洛文明", "文明探源", "河南省十大考古新发现"],
+  "sections": {
+    "intro": "苏羊遗址位于河南省洛阳市宜阳县境内，地处洛水流域与熊耳山交界地带，是一处延续时间自仰韶文化早期直至龙山文化晚期的大型史前聚落，其墓地规模与遗物丰富程度显示出遗址在仰韶早期社会中的重要地位。",
+    "arch": "2021年起洛阳市考古研究院对遗址开展持续考古调查与发掘，清理直穴土坑墓、多人骨二次葬坑及陶瓮棺葬等仰韶文化早期墓葬，出土陶、石、玉、骨、蚌诸质器物，并有碳化粟、黍遗存，为研究仰韶早期丧葬习俗与生业经济提供了系统材料。",
+    "events": "2022年遗址发现多座仰韶文化早期墓葬的消息对外公布，被认为是黄河中游史前'古国'阶段的重要线索；2024年3月入选2023年度河南省十大考古新发现，并入围同年度全国十大考古新发现终评。",
+    "poems": [],
+    "tourism": "遗址位于宜阳县乡村环境中，尚未形成成熟的开放景区，参观情况以当地文物部门公告为准，野外遗址请注意保护文物与现场环境。"
+  },
+  "images": [
+    "images/suoyang/muzang_qingjing.webp",
+    "images/suoyang/yuqi_hengjue.webp",
+    "images/suoyang/caise_taowenguan.webp"
+  ],
+  "relics": [
+    {
+      "id": "sy_circular_jade_pendant",
+      "name": "圆形玉珩玦",
+      "era": "yangshao",
+      "summary": "苏羊遗址墓葬中出土的玉器，包含圆形珩、玦一类佩饰，与石斧、石锛等同出，反映仰韶早期已存在较讲究的装饰与礼仪用玉行为。",
+      "material": "玉",
+      "images": ["images/suoyang/yuqi_hengjue.webp"]
+    },
+    {
+      "id": "sy_painted_pottery_bowl",
+      "name": "彩绘陶钵",
+      "era": "yangshao",
+      "summary": "遗址出土的彩绘陶钵施红彩图案，属仰韶文化彩陶系统，与骨、蚌器及碳化粟黍等同出，为判定遗址年代与文化属性的重要依据。",
+      "material": "陶",
+      "images": ["images/suoyang/caise_taowenguan.webp"]
+    },
+    {
+      "id": "sy_pottery_wenguan",
+      "name": "陶瓮棺",
+      "era": "yangshao",
+      "summary": "2022年发掘清理的仰韶文化早期瓮棺葬具，以大型陶瓮为葬具，是研究史前儿童或成人二次葬俗的实物材料，具体形制以正式简报为准。",
+      "material": "陶",
+      "images": ["images/suoyang/caise_taowenguan.webp"]
+    }
+  ],
+  "source": [
+    "河南省文物局：《洛阳：苏羊遗址发现多座仰韶文化早期墓葬》（2022-12）",
+    "澎湃新闻：《宜阳苏羊遗址——河洛文明的璀璨明珠》（2024-06）",
+    "2023年度河南省十大考古新发现公示材料（河南省文物局网站）"
+  ]
+}

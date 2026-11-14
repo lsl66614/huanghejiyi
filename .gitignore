@@ -18,7 +18,6 @@ tools/staging_unmounted/
 .merkle-snapshot.json
 hs_err_pid*.log
 /huanghe-memory-*.zip
-/submission/
 tools/_audit_scratch.txt
 
 # 装机验收截图（design/verify/，20MB+）。它们是过程证据、不是作品本体，
@@ -34,3 +33,18 @@ design/verify/
 # 留在库里会让人以为它们是构建链路的一部分。
 tools/_*.py
 tools/_*.txt
+
+# 签名材料（hh-debug.p12 / provision-debug.json 等）。仓库是公开的，
+# 上载等于把签名私钥和 profile 发给所有人，故整体不入库；
+# 需要重新签名的机器从本地或私密渠道取。
+/sign/
+
+# 参赛打包的压缩包（zip 89MB + rar 88MB）。内容与解包目录完全重复，
+# 但会永久占仓库体积且无法靠删除后续提交回收，故只留解包目录。
+/submission/*.zip
+/submission/*.rar
+
+# 会话级临时目录 / 构建缓存
+.tmp/
+app/oh_modules/
+app/entry/oh_modules/
